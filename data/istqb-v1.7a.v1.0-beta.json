@@ -1,0 +1,4479 @@
+{
+  "meta": {
+    "title": "ISTQB FOUNDATION 문제은행",
+    "version": "V1.7A",
+    "set": "A",
+    "syllabus": "Foundation Level v4.0.1 compatible",
+    "sourceNotice": "ISTQB 및 KSTQB 샘플문제 문서 기반. 원문 저작권 고지에 따라 출처를 표시해야 합니다.",
+    "generatedAt": "2026-06-27T06:06:31",
+    "questionCount": 66,
+    "examQuestionCount": 40,
+    "additionalQuestionCount": 26,
+    "name": "ISTQB Foundation V1.7A - v1.0 beta learning explanations",
+    "learningExplanationVersion": "v1.0-beta",
+    "learningExplanationScope": "V1.7A only"
+  },
+  "questions": [
+    {
+      "id": "v1.7a-1",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "1",
+      "type": "exam",
+      "question": "다음 설명 중 유효한 테스트 목적인 것은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "테스트 중인 시스템에 수정되지 않은 결함이 없음을 증명하기 위해"
+        },
+        {
+          "key": "b",
+          "text": "운영 환경에 구현한 시스템에 오류가 없음을 증명하기 위해"
+        },
+        {
+          "key": "c",
+          "text": "테스트 대상의 리스크 수준을 낮추고, 품질 수준에 대한 자신감을 얻기 위해"
+        },
+        {
+          "key": "d",
+          "text": "테스트하지 않은 입력 조합이 없는지 확인하기 위해"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "a) 정답이 아닙니다. 테스트 중인 시스템에 더 이상 결함이 없다고 증명하는 것은 불가능 합니다. 테스팅 원리 1을 참조하십시오. b) 정답이 아닙니다. 테스팅 원리 7을 참조하십시오. c) 정답입니다. 테스팅은 결함과 장애를 찾아서 리스크 수준을 줄이고 테스트 대상의 품질 수준에 대한 신뢰를 높여줍니다. d) 정답이 아닙니다. 모든 입력 조합을 테스트하는 것은 불가능합니다. (테스팅 원리 2를 참조하십시오.)",
+      "learningObjective": "FL-1.1.1",
+      "kLevel": "K1",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 3
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '테스팅의 목적'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 C입니다. 테스팅은 결함과 장애를 찾아서 리스크 수준을 줄이고 테스트 대상의 품질 수준에 대한 신뢰를 높여줍니다.",
+        "wrongReasons": {
+          "a": "테스트 중인 시스템에 더 이상 결함이 없다고 증명하는 것은 불가능 합니다. 테스팅 원리 1을 참조하십시오.",
+          "b": "테스팅 원리 7을 참조하십시오. 이 보기는 '테스팅의 목적'의 핵심 조건과 맞지 않습니다.",
+          "d": "모든 입력 조합을 테스트하는 것은 불가능합니다. (테스팅 원리 2를 참조하십시오.)"
+        },
+        "beginnerTip": "헷갈리면 '테스팅 목적'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '테스팅의 목적'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "테스팅 목적",
+          "리스크 감소",
+          "품질 신뢰"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-2",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "2",
+      "type": "exam",
+      "question": "다음 중 테스트 활동이 성공에 기여하는 예를 나타내는 옵션은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "소프트웨어 개발 수명주기의 다양한 활동에 테스터가 참여함으로써 작업 산출물의 결함 식별을 지원한다"
+        },
+        {
+          "key": "b",
+          "text": "개발자가 코드를 개발하는 동안 테스터가 방해하지 않도록 애씀으로써 개발자가 더 좋은 코드를 작성할 수 있게 한다"
+        },
+        {
+          "key": "c",
+          "text": "최종 사용자와 협업하는 테스터는 단위 통합 및 시스템 테스팅 중 작성하는 결함 보고서의 품질을 높인다"
+        },
+        {
+          "key": "d",
+          "text": "자격증을 보유한 테스터가 자격증이 없는 테스터보다 훨씬 좋은 테스트 케이스를 작성할 것이다"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "a) 정답입니다. 소프트웨어 개발 수명주기(SDLC)의 시작부터 테스터가 참여하는 것은 중요합니다. 설계 결정 사항에 대한 이해를 높이고 결함을 조기에 발견할 수 있게 해줍니다. b) 정답이 아닙니다. 개발자와 테스터 모두 서로의 작업 산출물과 코드의 테스트 방법에 대해 더 이해하게 될 것입니다. c) 정답이 아닙니다. 최종 사용자는 결함 보고서의 품질 향상을 위해 테스터를 지원하지 않으며, 또한 사용자는 일반적으로 통합 테스팅과 같은 하위 레벨 테스팅에 참여하지 않습니다. d) 정답이 아닙니다. 자격증 보유는 테스터가 테스트 설계를 더 잘한다는 것을 의미하지 않습니다.",
+      "learningObjective": "FL-1.2.1",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 3
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '테스팅이 성공에 기여하는 방식'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 A입니다. 소프트웨어 개발 수명주기(SDLC)의 시작부터 테스터가 참여하는 것은 중요합니다. 설계 결정 사항에 대한 이해를 높이고 결함을 조기에 발견할 수 있게 해줍니다.",
+        "wrongReasons": {
+          "b": "개발자와 테스터 모두 서로의 작업 산출물과 코드의 테스트 방법에 대해 더 이해하게 될 것입니다.",
+          "c": "최종 사용자는 결함 보고서의 품질 향상을 위해 테스터를 지원하지 않으며, 또한 사용자는 일반적으로 통합 테스팅과 같은 하위 레벨 테스팅에 참여하지 않습니다.",
+          "d": "자격증 보유는 테스터가 테스트 설계를 더 잘한다는 것을 의미하지 않습니다."
+        },
+        "beginnerTip": "헷갈리면 '조기 참여'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '테스팅이 성공에 기여하는 방식'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "조기 참여",
+          "결함 조기 발견",
+          "SDLC"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-3",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "3",
+      "type": "exam",
+      "question": "당신은 새로운 시스템을 점진적으로 개발하고 있는 팀의 테스터이다. 여러 번의 반복주기 가 진행되는 동안 리그레션 테스트 케이스가 바뀌지 않았고, 새로운 리그레션 결함도 식별되 지 않았음을 확인했다. 팀의 관리자는 기뻐하고 있지만, 당신은 그렇지 못하다. 당신이 걱정하 고 있는 것을 설명하는 테스팅의 원리는?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "테스트 효과는 줄어든다"
+        },
+        {
+          "key": "b",
+          "text": "결함 부재의 논리는 궤변이다"
+        },
+        {
+          "key": "c",
+          "text": "결함은 집중된다"
+        },
+        {
+          "key": "d",
+          "text": "완벽한 테스팅은 불가능하다"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "a) 정답입니다. 이 원리는 만약 같은 테스트를 계속해서 반복한다면, 결국엔 이 테스트로 더 이상 새로운 결함을 찾지 못한다는 것을 의미합니다. 또한 모든 테스트가 이번 릴리스에서 통과한 이유도 이것 때문일 것입니다. b) 정답이 아닙니다. 이 원리는 그저 많은 수의 결함을 발견하고 수정하는 것이 시스템의 성공을 보장한다는 잘못된 믿음에 대해 이야기합니다. c) 정답이 아닙니다. 이 원리는 보통 적은 수의 컴포넌트가 대부분의 결함을 가지고 있다는 것을 말합니다. d) 정답이 아닙니다. 이 원리는 모든 입력값과 사전 조건의 조합을 테스트하는 것은 불가능하다는 것을 말합니다.",
+      "learningObjective": "FL-1.3.1",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 3
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '테스팅의 7가지 원리'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 A입니다. 이 원리는 만약 같은 테스트를 계속해서 반복한다면, 결국엔 이 테스트로 더 이상 새로운 결함을 찾지 못한다는 것을 의미합니다. 또한 모든 테스트가 이번 릴리스에서 통과한 이유도 이것 때문일 것입니다.",
+        "wrongReasons": {
+          "b": "이 원리는 그저 많은 수의 결함을 발견하고 수정하는 것이 시스템의 성공을 보장한다는 잘못된 믿음에 대해 이야기합니다.",
+          "c": "이 원리는 보통 적은 수의 컴포넌트가 대부분의 결함을 가지고 있다는 것을 말합니다.",
+          "d": "이 원리는 모든 입력값과 사전 조건의 조합을 테스트하는 것은 불가능하다는 것을 말합니다."
+        },
+        "beginnerTip": "헷갈리면 '테스팅 원리'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '테스팅의 7가지 원리'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "테스팅 원리",
+          "결함 부재의 궤변",
+          "테스트 효과 감소"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-4",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "4",
+      "type": "exam",
+      "question": "당신은 배달 주문 모바일 애플리케이션을 개발하는 팀에서 일하고 있다. 팀은 현재 반복 주기에서 결제 기능을 구현하기로 결정했다. 다음 중 테스트 분석 활동은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "결제 서비스와의 통합을 테스트하는 데 8 M/D가 소요될 것으로 예상하는 행위"
+        },
+        {
+          "key": "b",
+          "text": "한 건의 주문에 여러 명이 각자 결제를 할 수 있는지 팀이 테스트해야 한다고 결정하는 행위"
+        },
+        {
+          "key": "c",
+          "text": "경계값 분석으로 최소 결제 금액 처리를 확인하는 테스트 케이스에 필요한 테스트 데이터를 도출하는 행위"
+        },
+        {
+          "key": "d",
+          "text": "신용카드 결제를 확인하는 테스트 케이스를 실행한 후, 실제 결과와 기대 결과의 차이를 분석해서 결함을 보고하는 행위"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "a) 정답이 아닙니다. 테스트 노력을 추정하는 것은 테스트 계획 중 이루어집니다. b) 정답입니다. 이것은 테스트 분석 중 테스트 컨디션을 정의하는 예시입니다. c) 정답이 아닙니다. 커버리지 항목을 도출하기 위해 테스트 기법을 사용하는 것은 테스트 설계 중 이루어집니다. d) 정답이 아닙니다. 동적 테스팅 중 발견한 결함을 보고하는 것은 테스트 실행 중 이루어 집니다.",
+      "learningObjective": "FL-1.4.1",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 4
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '테스트 활동 구분'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 B입니다. 이것은 테스트 분석 중 테스트 컨디션을 정의하는 예시입니다.",
+        "wrongReasons": {
+          "a": "테스트 노력을 추정하는 것은 테스트 계획 중 이루어집니다.",
+          "c": "커버리지 항목을 도출하기 위해 테스트 기법을 사용하는 것은 테스트 설계 중 이루어집니다.",
+          "d": "동적 테스팅 중 발견한 결함을 보고하는 것은 테스트 실행 중 이루어 집니다."
+        },
+        "beginnerTip": "ISTQB 문제는 활동 이름이 비슷하게 나오므로, 산출물이 무엇인지와 누가 수행하는지를 함께 보면 구분하기 쉽습니다.",
+        "keyPoint": "테스트 분석은 '무엇을 테스트할지', 테스트 설계는 '어떻게 테스트 케이스로 만들지', 테스트 구현은 '실행 가능하게 준비하는 것'에 가깝습니다.",
+        "terms": [
+          "테스트 분석",
+          "테스트 설계",
+          "테스트 구현",
+          "테스트 실행"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-5",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "5",
+      "type": "exam",
+      "question": "다음 예시 중 테스트 프로세스에 중대한 영향을 미치는 요소를 고르시오. i. 소프트웨어 개발 수명주기(SDLC) ii. 이전 프로젝트에서 식별한 결함 수 iii. 식별한 제품 리스크 iv. 체계적인 화이트 박스 테스팅을 강제하는 새로운 규제 v. 테스트 환경 설정",
+      "choices": [
+        {
+          "key": "a",
+          "text": "i, ii"
+        },
+        {
+          "key": "b",
+          "text": "i, iii, iv"
+        },
+        {
+          "key": "c",
+          "text": "ii, iv, v"
+        },
+        {
+          "key": "d",
+          "text": "iii, v"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "i. 참입니다. SDLC는 테스트 프로세스에 영향을 줍니다. ii. 거짓입니다. 이전 프로젝트에서 발견한 결함의 수는 어느 정도 영향이 있을 수 있지만, ⅰ, ⅲ, ⅳ 만큼 중요하지 않습니다. iii. 참입니다. 식별된 제품 리스크는 테스트 프로세스에 영향을 끼치는 중요한 요소 중 하나입니다. iv. 참입니다. 규제 요구사항은 테스트 프로세스에 영향을 끼치는 중요한 요소입니다. v. 거짓입니다. 테스트 환경은 테스트 프로세스에 중대한 영향을 끼치지 않습니다. 따라서:\na) 정답이 아닙니다. b) 정답입니다. c) 정답이 아닙니다. d) 정답이 아닙니다.",
+      "learningObjective": "FL-1.4.2",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 4
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '테스트 프로세스에 영향을 주는 요소'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 B입니다. ",
+        "wrongReasons": {
+          "a": " 이 보기는 '테스트 프로세스에 영향을 주는 요소'의 핵심 조건과 맞지 않습니다.",
+          "c": " 이 보기는 '테스트 프로세스에 영향을 주는 요소'의 핵심 조건과 맞지 않습니다.",
+          "d": " 이 보기는 '테스트 프로세스에 영향을 주는 요소'의 핵심 조건과 맞지 않습니다."
+        },
+        "beginnerTip": "ISTQB 문제는 활동 이름이 비슷하게 나오므로, 산출물이 무엇인지와 누가 수행하는지를 함께 보면 구분하기 쉽습니다.",
+        "keyPoint": "테스트 분석은 '무엇을 테스트할지', 테스트 설계는 '어떻게 테스트 케이스로 만들지', 테스트 구현은 '실행 가능하게 준비하는 것'에 가깝습니다.",
+        "terms": [
+          "SDLC",
+          "제품 리스크",
+          "규제 요구사항"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-6",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "6",
+      "type": "exam",
+      "question": "다음 중 주로 테스팅 역할을 하는 사람이 수행하는 작업 두 가지는?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "테스트 환경 구성"
+        },
+        {
+          "key": "b",
+          "text": "제품 백로그 유지보수"
+        },
+        {
+          "key": "c",
+          "text": "새로운 요구사항을 위한 해결방안 설계"
+        },
+        {
+          "key": "d",
+          "text": "테스트 계획 생성"
+        },
+        {
+          "key": "e",
+          "text": "테스트 베이시스 분석"
+        }
+      ],
+      "answer": [
+        "a",
+        "e"
+      ],
+      "explanation": "a) 정답입니다. 이것은 테스터가 행합니다. b) 정답이 아닙니다. 제품 백로그는 제품 소유자가 만들고 유지합니다. c) 정답이 아닙니다. 이것은 개발팀이 행합니다. d) 정답이 아닙니다. 이것은 관리의 역할입니다. e) 정답입니다. 테스트 분석의 일환으로 수행되는 기술적인 작업이기 때문에 이는 테스터에 의해 수행됩니다.",
+      "learningObjective": "FL-1.4.5",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 5
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "복수정답 문항입니다. 이 문제는 '테스팅 역할과 테스트 관리 역할'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 A, E입니다. 이것은 테스터가 행합니다. 테스트 분석의 일환으로 수행되는 기술적인 작업이기 때문에 이는 테스터에 의해 수행됩니다.",
+        "wrongReasons": {
+          "b": "제품 백로그는 제품 소유자가 만들고 유지합니다.",
+          "c": "이것은 개발팀이 행합니다. 이 보기는 '테스팅 역할과 테스트 관리 역할'의 핵심 조건과 맞지 않습니다.",
+          "d": "이것은 관리의 역할입니다. 이 보기는 '테스팅 역할과 테스트 관리 역할'의 핵심 조건과 맞지 않습니다."
+        },
+        "beginnerTip": "문제에서 두 가지 또는 복수 선택을 요구하면, 맞는 보기 하나를 찾고 끝내지 말고 나머지 보기까지 같은 기준으로 검토해야 합니다.",
+        "keyPoint": "테스트 분석은 '무엇을 테스트할지', 테스트 설계는 '어떻게 테스트 케이스로 만들지', 테스트 구현은 '실행 가능하게 준비하는 것'에 가깝습니다.",
+        "terms": [
+          "테스팅 역할",
+          "테스트 관리",
+          "테스트 베이시스"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-7",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "7",
+      "type": "exam",
+      "question": "다음 예시 중 테스터에게 가장 중요한 역량(skills)은?\ni. 도메인 지식 보유 ii. 제품 비전 수립 능력 iii. 좋은 팀 구성원 되기 iv. 팀이 수행하는 일의 계획 및 구성 능력 v. 비판적 사고",
+      "choices": [
+        {
+          "key": "a",
+          "text": "ii, iv"
+        },
+        {
+          "key": "b",
+          "text": "i, iii, v"
+        },
+        {
+          "key": "c",
+          "text": "i, ii, v"
+        },
+        {
+          "key": "d",
+          "text": "iii, iv"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "i. 참입니다. 도메인 지식을 갖고 있는 것은 테스터에게 중요한 역량입니다. ii. 거짓입니다. 이것은 비즈니스 분석가와 비즈니스 담당자의 일입니다. iii. 참입니다. 좋은 팀원일 수 있는 역량은 중요한 스킬입니다. iv. 거짓입니다. 팀의 작업을 계획 및 구성하는 것은 테스트 관리자의 역할인 경우가 많고 아니면, 주로 애자일 소프트웨어 개발 프로젝트에서, 테스터만이 아닌 전체 팀의 일이 되기도 합니다. v. 참입니다. 비판적 사고는 테스터에게 중요한 역량 중 하나입니다. 따라서:\na) 정답이 아닙니다. b) 정답입니다. c) 정답이 아닙니다. d) 정답이 아닙니다.",
+      "learningObjective": "FL-1.5.1",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 5
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '테스터에게 필요한 역량'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 B입니다. ",
+        "wrongReasons": {
+          "a": " 이 보기는 '테스터에게 필요한 역량'의 핵심 조건과 맞지 않습니다.",
+          "c": " 이 보기는 '테스터에게 필요한 역량'의 핵심 조건과 맞지 않습니다.",
+          "d": " 이 보기는 '테스터에게 필요한 역량'의 핵심 조건과 맞지 않습니다."
+        },
+        "beginnerTip": "헷갈리면 '도메인 지식'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '테스터에게 필요한 역량'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "도메인 지식",
+          "비판적 사고",
+          "팀워크"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-8",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "8",
+      "type": "exam",
+      "question": "다음 중 전체 팀 접근법(Whole team approach)이 테스터와 비즈니스 담당자 간의 상호 작용에서 어떻게 나타나는지에 대한 올바른 예제인 것은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "비즈니스 담당자가 테스트 자동화 접근법을 결정한다"
+        },
+        {
+          "key": "b",
+          "text": "테스터가 비즈니스 담당자의 테스트 전략 결정을 지원한다"
+        },
+        {
+          "key": "c",
+          "text": "비즈니스 담당자는 전체 팀 접근법의 구성원이 아니다"
+        },
+        {
+          "key": "d",
+          "text": "테스터가 비즈니스 담당자의 적절한 인수 테스트 작성을 지원한다"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "a) 정답이 아닙니다. 테스트 자동화 접근법은 개발자와 비즈니스 담당자의 도움을 받아 테스터가 정의합니다. b) 정답이 아닙니다. 테스트 전략은 개발자와 협업해서 결정됩니다. c) 정답이 아닙니다. 테스터, 개발자, 비즈니스 담당자는 전체 팀 접근법의 구성원입니다. d) 정답입니다. 원하는 품질 수준에 도달할 수 있도록 테스터는 비즈니스 담당자와 긴밀히 협력하게 됩니다. 여기에 적절한 인수 테스트를 생성할 수 있도록 지원하고 협력하는 것도 포함됩니다.",
+      "learningObjective": "FL-1.5.2",
+      "kLevel": "K1",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 5
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '전체 팀 접근법'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 D입니다. 원하는 품질 수준에 도달할 수 있도록 테스터는 비즈니스 담당자와 긴밀히 협력하게 됩니다. 여기에 적절한 인수 테스트를 생성할 수 있도록 지원하고 협력하는 것도 포함됩니다.",
+        "wrongReasons": {
+          "a": "테스트 자동화 접근법은 개발자와 비즈니스 담당자의 도움을 받아 테스터가 정의합니다.",
+          "b": "테스트 전략은 개발자와 협업해서 결정됩니다.",
+          "c": "테스터, 개발자, 비즈니스 담당자는 전체 팀 접근법의 구성원입니다."
+        },
+        "beginnerTip": "헷갈리면 '전체 팀 접근법'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '전체 팀 접근법'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "전체 팀 접근법",
+          "협업",
+          "인수 테스트"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-9",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "9",
+      "type": "exam",
+      "question": "“모든 소프트웨어 개발 수명주기(SDLC) 활동에는 그에 상응하는 테스트 활동이 있다.” 이 규칙은 어떤 소프트웨어 개발 수명주기 모델에 적용되는가?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "순차적 개발 모델에만"
+        },
+        {
+          "key": "b",
+          "text": "반복적 개발 모델에만"
+        },
+        {
+          "key": "c",
+          "text": "반복적, 점진적 개발 모델에만"
+        },
+        {
+          "key": "d",
+          "text": "순차적, 점진적, 반복적 개발 모델에"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "a) 정답이 아닙니다. b) 정답이 아닙니다. c) 정답이 아닙니다. d) 정답입니다. 이 규칙은 모든 SDLC 모델에 적용됩니다.",
+      "learningObjective": "FL-2.1.2",
+      "kLevel": "K1",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 6
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 'SDLC와 테스트 활동의 대응'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 D입니다. 이 규칙은 모든 SDLC 모델에 적용됩니다.",
+        "wrongReasons": {
+          "a": " 이 보기는 'SDLC와 테스트 활동의 대응'의 핵심 조건과 맞지 않습니다.",
+          "b": " 이 보기는 'SDLC와 테스트 활동의 대응'의 핵심 조건과 맞지 않습니다.",
+          "c": " 이 보기는 'SDLC와 테스트 활동의 대응'의 핵심 조건과 맞지 않습니다."
+        },
+        "beginnerTip": "헷갈리면 'SDLC'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 'SDLC와 테스트 활동의 대응'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "SDLC",
+          "테스트 레벨",
+          "조기 테스팅"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-10",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "10",
+      "type": "exam",
+      "question": "다음 중 인수 테스트 주도 개발(ATDD) 접근법을 가장 잘 설명한 것은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "인수 테스트 주도 개발에서는 일반적으로 인수 조건을 given/when/then 형식으로 작성한다"
+        },
+        {
+          "key": "b",
+          "text": "인수 테스트 주도 개발에서는 테스트 케이스가 주로 단위 테스팅 수준에서 작성되며 코드 지향적이다"
+        },
+        {
+          "key": "c",
+          "text": "인수 테스트 주도 개발에서는 관련 소프트웨어 개발을 주도하기 위해 인수 조건을 기반으로 테스트를 작성한다"
+        },
+        {
+          "key": "d",
+          "text": "인수 테스트 주도 개발에서는 테스트가 소프트웨어의 기대 동작을 기반으로 하므로 팀원들이 이를 더 쉽게 이해할 수 있다"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "a) 정답이 아닙니다. 이것은 행동 주도 개발(BDD)에 더 자주 사용됩니다. b) 정답이 아닙니다. 이것은 테스트 주도 개발(TDD)에 대한 설명입니다. c) 정답입니다. 인수 테스트 주도 개발(ATDD)에서 테스트는 설계 프로세스 중 인수 조건을 기반으로 작성됩니다. d) 정답이 아닙니다. 이것은 BDD에서 사용됩니다.",
+      "learningObjective": "FL-2.1.3",
+      "kLevel": "K1",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 6
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '테스트 우선 개발 접근법'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 C입니다. 인수 테스트 주도 개발(ATDD)에서 테스트는 설계 프로세스 중 인수 조건을 기반으로 작성됩니다.",
+        "wrongReasons": {
+          "a": "이것은 행동 주도 개발(BDD)에 더 자주 사용됩니다.",
+          "b": "이것은 테스트 주도 개발(TDD)에 대한 설명입니다.",
+          "d": "이것은 BDD에서 사용됩니다. 이 보기는 '테스트 우선 개발 접근법'의 핵심 조건과 맞지 않습니다."
+        },
+        "beginnerTip": "헷갈리면 'ATDD'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '테스트 우선 개발 접근법'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "ATDD",
+          "TDD",
+          "BDD",
+          "테스트 우선"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-11",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "11",
+      "type": "exam",
+      "question": "다음 중 시프트 레프트 접근법(shift-left approach)의 사례가 아닌 것은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "이해관계자가 공식적으로 승인하기 전에 사용자 요구사항 검토"
+        },
+        {
+          "key": "b",
+          "text": "관련 코드가 작성되기 전에 연관된 단위 테스트 작성"
+        },
+        {
+          "key": "c",
+          "text": "컴포넌트 테스팅을 하는 동안 컴포넌트에 대한 성능 테스트 실행"
+        },
+        {
+          "key": "d",
+          "text": "형상 관리 프로세스를 구축하기 전에 테스트 스크립트 작성"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "a) 정답이 아닙니다. 조기 리뷰는 쉬프트-레프트 접근법의 예시입니다. b) 정답이 아닙니다. TDD는 쉬프트-레프트 접근법의 예시입니다. c) 정답이 아닙니다. 조기 비기능 테스팅은 쉬프트-레프트 접근법의 예시입니다. d) 정답입니다. 테스트 스크립트는 형상 관리 대상이기 때문에 이 프로세스가 구축되기 전에 테스트 스크립트를 작성하는 것은 의미가 없습니다.",
+      "learningObjective": "FL-2.1.5",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 6
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '시프트 레프트 접근법'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 D입니다. 테스트 스크립트는 형상 관리 대상이기 때문에 이 프로세스가 구축되기 전에 테스트 스크립트를 작성하는 것은 의미가 없습니다.",
+        "wrongReasons": {
+          "a": "조기 리뷰는 쉬프트-레프트 접근법의 예시입니다.",
+          "b": "TDD는 쉬프트-레프트 접근법의 예시입니다.",
+          "c": "조기 비기능 테스팅은 쉬프트-레프트 접근법의 예시입니다."
+        },
+        "beginnerTip": "헷갈리면 'Shift-left'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '시프트 레프트 접근법'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "Shift-left",
+          "조기 리뷰",
+          "조기 비기능 테스팅"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-12",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "12",
+      "type": "exam",
+      "question": "관리자가 각 릴리스 주기가 끝날 때 회고(retrospectives)를 주최하도록 설득하기 위한 주장 중 가장 적절한 것은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "최근 회고의 인기가 매우 높으며 프로세스에 회고를 추가하면 고객이 좋아할 것이다"
+        },
+        {
+          "key": "b",
+          "text": "회고를 수행하지 않으면 최종 사용자 대표가 제품에 대한 즉각적인 피드백을 제공할 수 없기 때문에 회고를 수행하는 것이 조직의 비용 절감에 도움이 될 것이다"
+        },
+        {
+          "key": "c",
+          "text": "회고 과정에서 조직의 프로세스 약점을 식별해서 지속적인 프로세스 개선 과정에서 수행해야 할 작업 목록으로 사용할 수 있다"
+        },
+        {
+          "key": "d",
+          "text": "회고는 조직의 지속적인 발전에 중요한 용기와 존중 등 다섯 가지 가치가 발현될 수 있도록 한다"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "a) 정답이 아닙니다. 회고는 개선 기회를 식별하는 데 더 유용하며 고객에게는 중요성이 떨어집니다. b) 정답이 아닙니다. 회고는 제품에 대한 피드백을 수집하는 것이 아니라 프로세스에 대한 피드백을 수집하는 것을 목표로 합니다. 또한 회고는 팀 내부 활동이며 최종 사용자 대표를 포함해서는 안 됩니다. c) 정답입니다. 적절한 후속 조치가 동반되는 정기적인 회고는 개발과 테스팅의 지속적인 개선에 중요합니다. d) 정답이 아닙니다. 용기와 존중은 익스트림 프로그래밍의 가치이며 회고와 큰 관련이 없습니다.",
+      "learningObjective": "FL-2.1.6",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 7
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '회고와 프로세스 개선'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 C입니다. 적절한 후속 조치가 동반되는 정기적인 회고는 개발과 테스팅의 지속적인 개선에 중요합니다.",
+        "wrongReasons": {
+          "a": "회고는 개선 기회를 식별하는 데 더 유용하며 고객에게는 중요성이 떨어집니다.",
+          "b": "회고는 제품에 대한 피드백을 수집하는 것이 아니라 프로세스에 대한 피드백을 수집하는 것을 목표로 합니다. 또한 회고는 팀 내부 활동이며 최종 사용자 대표를 포함해서는 안 됩니다.",
+          "d": "용기와 존중은 익스트림 프로그래밍의 가치이며 회고와 큰 관련이 없습니다."
+        },
+        "beginnerTip": "헷갈리면 '회고'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '회고와 프로세스 개선'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "회고",
+          "프로세스 개선",
+          "교훈"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-13",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "13",
+      "type": "exam",
+      "question": "장애 유형과 테스트 레벨을 올바르게 연결한 것은?\n1. 사용자의 비즈니스 요구와 다른 시스템 동작으로 인한 장애 2. 컴포넌트 간 통신 실패로 인한 장애 3. 코드 내 논리로 인한 장애 4. 올바르게 구현되지 않은 비즈니스 규칙으로 인한 장애\nA. 단위 테스팅\nB. 단위 통합 테스팅\nC. 시스템 테스팅\nD. 인수 테스팅",
+      "choices": [
+        {
+          "key": "a",
+          "text": "1D, 2B, 3A, 4C"
+        },
+        {
+          "key": "b",
+          "text": "1D, 2B, 3C, 4A"
+        },
+        {
+          "key": "c",
+          "text": "1B, 2A, 3D, 4C"
+        },
+        {
+          "key": "d",
+          "text": "1C, 2B, 3A, 4D"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "각 항목을 살펴보면:\n• 인수 테스팅의 테스트 베이시스는 사용자의 비즈니스 요구입니다. (1D) • 컴포넌트 간 통신은 단위 통합 테스팅 동안 테스트됩니다. (2B) • 논리적 장애는 단위 테스팅 동안 발견할 수 있습니다. (3A) • 비즈니스 규칙은 시스템 테스팅의 테스트 베이시스입니다. (4C) 따라서:\na) 정답입니다. b) 정답이 아닙니다. c) 정답이 아닙니다. d) 정답이 아닙니다.",
+      "learningObjective": "FL-2.2.1",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 7
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '테스트 레벨'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 A입니다. ",
+        "wrongReasons": {
+          "b": " 이 보기는 '테스트 레벨'의 핵심 조건과 맞지 않습니다.",
+          "c": " 이 보기는 '테스트 레벨'의 핵심 조건과 맞지 않습니다.",
+          "d": " 이 보기는 '테스트 레벨'의 핵심 조건과 맞지 않습니다."
+        },
+        "beginnerTip": "테스트 레벨과 테스트 유형을 구분하세요. 레벨은 언제/어디 범위에서 테스트하는가이고, 유형은 무엇을 확인하는가에 가깝습니다.",
+        "keyPoint": "핵심은 '테스트 레벨'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "단위",
+          "통합",
+          "시스템",
+          "인수 테스팅"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-14",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "14",
+      "type": "exam",
+      "question": "당신은 세 가지 인수 조건 AC1, AC2, AC3을 사용해 사용자 스토리를 테스트하고 있다. AC1은 테스트 케이스 TC1로, AC2는 TC2로, AC3은 TC3로 커버한다. 테스트 실행 내역에 다음과 같이 세 가지 버전의 소프트웨어에서 연속으로 세 번의 테스트 실행이 있었다. 첫 번째 실행 두 번째 실행 세 번째 실행\nTC1 (1) 실패 (4) 합격 (7) 합격\nTC2 (2) 합격 (5) 실패 (8) 합격\nTC3 (3) 실패 (6) 실패 (9) 합격 테스트 실행 때 식별한 모든 결함이 수정되고 새로운 소프트웨어 버전이 준비되면 테스트를 다시 수행한다. 다음 중 리그레션 테스트로 수행된 테스트는?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "4, 7, 8, 9"
+        },
+        {
+          "key": "b",
+          "text": "5, 7"
+        },
+        {
+          "key": "c",
+          "text": "4, 6, 8, 9"
+        },
+        {
+          "key": "d",
+          "text": "5, 6"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "TC1과 TC3이 첫 번째 실행(테스트 (1), 테스트 (3)) 때 실패했기 때문에 테스트 (4)와 테스트 (6)은 확인 테스트가 됩니다. TC2와 TC3이 두 번째 실행(테스트 (5), 테스트 (6)) 때 실패했기 때문에 테스트(8)과 테스트 (9)도 확인 테스트가 됩니다. TC2가 첫 번째 실행(테스트 (2)) 때 합격했기 때문에 테스트 (5)는 리그레션 테스트가 됩니다. TC1이 두 번째 실행(테스트 (4)) 때 합격했기 때문에 테스트 (7)도 리그레션 테스트가 됩니다. 따라서:\na) 정답이 아닙니다. b) 정답입니다. c) 정답이 아닙니다. d) 정답이 아닙니다.",
+      "learningObjective": "FL-2.2.3",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 8
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '확인 테스팅과 리그레션 테스팅'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 B입니다. ",
+        "wrongReasons": {
+          "a": " 이 보기는 '확인 테스팅과 리그레션 테스팅'의 핵심 조건과 맞지 않습니다.",
+          "c": " 이 보기는 '확인 테스팅과 리그레션 테스팅'의 핵심 조건과 맞지 않습니다.",
+          "d": " 이 보기는 '확인 테스팅과 리그레션 테스팅'의 핵심 조건과 맞지 않습니다."
+        },
+        "beginnerTip": "테스트 레벨과 테스트 유형을 구분하세요. 레벨은 언제/어디 범위에서 테스트하는가이고, 유형은 무엇을 확인하는가에 가깝습니다.",
+        "keyPoint": "핵심은 '확인 테스팅과 리그레션 테스팅'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "확인 테스팅",
+          "리그레션 테스팅",
+          "재테스트"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-15",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "15",
+      "type": "exam",
+      "question": "다음 중 정적 테스팅의 이점이 아닌 것은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "소프트웨어 수명 주기(SDLC) 후반에 결함을 더 많이 식별하므로 결함 관리 비용이 적게 든다"
+        },
+        {
+          "key": "b",
+          "text": "일반적으로 정적 테스팅 중 식별한 결함을 수정하는 것이 동적 테스팅 중 식별한 결함을 수정하는 것보다 비용이 훨씬 적게 든다"
+        },
+        {
+          "key": "c",
+          "text": "동적 테스팅만으로는 식별하지 못할 수 있는 코딩 결함을 식별할 수 있다"
+        },
+        {
+          "key": "d",
+          "text": "요구사항과의 차이 및 요구사항 내 불일치를 식별할 수 있다"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "a) 정답입니다. 결함 관리 비용이 더 적게 들지 않습니다. SDLC 후반에 결함을 발견하고 수정하면 더 많은 비용이 듭니다. b) 정답이 아닙니다. 정적 테스팅의 이점입니다. c) 정답이 아닙니다. 정적 테스팅의 이점입니다. d) 정답이 아닙니다. 정적 테스팅의 이점입니다.",
+      "learningObjective": "FL-3.1.2",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 8
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '정적 테스팅의 가치'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 A입니다. 결함 관리 비용이 더 적게 들지 않습니다. SDLC 후반에 결함을 발견하고 수정하면 더 많은 비용이 듭니다.",
+        "wrongReasons": {
+          "b": "정적 테스팅의 이점입니다. 이 보기는 '정적 테스팅의 가치'의 핵심 조건과 맞지 않습니다.",
+          "c": "정적 테스팅의 이점입니다. 이 보기는 '정적 테스팅의 가치'의 핵심 조건과 맞지 않습니다.",
+          "d": "정적 테스팅의 이점입니다. 이 보기는 '정적 테스팅의 가치'의 핵심 조건과 맞지 않습니다."
+        },
+        "beginnerTip": "헷갈리면 '정적 테스팅'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '정적 테스팅의 가치'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "정적 테스팅",
+          "동적 테스팅",
+          "결함 조기 발견"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-16",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "16",
+      "type": "exam",
+      "question": "다음 중 피드백을 조기에 자주 받았을 때의 이점인 것은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "향후 프로젝트를 위해 테스트 프로세스를 개선할 수 있다"
+        },
+        {
+          "key": "b",
+          "text": "고객이 합의된 리스크에 따라 요구사항의 우선순위를 정하도록 한다"
+        },
+        {
+          "key": "c",
+          "text": "변경 사항의 품질을 측정할 수 있다"
+        },
+        {
+          "key": "d",
+          "text": "요구사항에 대한 오해를 피하는 데 도움이 된다"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "a) 정답이 아닙니다. 피드백은 테스트 프로세스를 개선할 수 있습니다. 하지만 개선 대상이 향후 프로젝트라면, 피드백을 조기에 받거나 자주 받을 필요는 없습니다. b) 정답이 아닙니다. 피드백은 요구사항의 우선순위를 정하기 위해 사용되지 않습니다. c) 정답이 아닙니다. 변경 사항의 품질 측정은 조기에 자주 받는 피드백 외에 다양한 방법이 있다. 또한, 이것은 3.2.1 절에서 언급된 피드백을 조기에 받았을 때의 이점 중 하나가 아니다. d) 정답입니다. 조기에 자주 피드백을 하면 잠재적 품질 문제에 대해 이른 시점부터 의견을 나눌 수 있습니다.",
+      "learningObjective": "FL-3.2.1",
+      "kLevel": "K1",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 9
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '조기·빈번한 피드백'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 D입니다. 조기에 자주 피드백을 하면 잠재적 품질 문제에 대해 이른 시점부터 의견을 나눌 수 있습니다.",
+        "wrongReasons": {
+          "a": "피드백은 테스트 프로세스를 개선할 수 있습니다. 하지만 개선 대상이 향후 프로젝트라면, 피드백을 조기에 받거나 자주 받을 필요는 없습니다.",
+          "b": "피드백은 요구사항의 우선순위를 정하기 위해 사용되지 않습니다.",
+          "c": "변경 사항의 품질 측정은 조기에 자주 받는 피드백 외에 다양한 방법이 있다. 또한, 이것은 3.2.1 절에서 언급된 피드백을 조기에 받았을 때의 이점 중 하나가 아니다."
+        },
+        "beginnerTip": "ISTQB 문제는 활동 이름이 비슷하게 나오므로, 산출물이 무엇인지와 누가 수행하는지를 함께 보면 구분하기 쉽습니다.",
+        "keyPoint": "리뷰 문제는 리뷰 유형, 리뷰 활동 순서, 리뷰 역할의 책임을 분리해서 외우면 안정적으로 풀 수 있습니다.",
+        "terms": [
+          "피드백",
+          "오해 방지",
+          "품질 문제 조기 발견"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-17",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "17",
+      "type": "exam",
+      "question": "조직에서 수행하고 있는 리뷰가 다음과 같은 특징을 가지고 있다. • 서기 역할을 하는 사람이 있다 • 주요 목적은 품질을 평가하는 것이다 • 작업 산출물 작성자가 회의를 주도한다 • 개별 준비 단계가 있다 • 리뷰 보고서를 작성한다 다음 중 사용하고 있는 리뷰 유형일 가능성이 가장 높은 것은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "비공식 리뷰(Informal review)"
+        },
+        {
+          "key": "b",
+          "text": "워크쓰루(Walkthrough)"
+        },
+        {
+          "key": "c",
+          "text": "기술 리뷰(Technical review)"
+        },
+        {
+          "key": "d",
+          "text": "인스펙션(Inspection)"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "속성을 고려해보면 • 워크쓰루, 기술적 리뷰, 인스펙션을 위해 명시됩니다. 따라서, 수행하고 있는 리뷰는 비공식 리뷰일 수 없습니다. • 품질을 평가하는 것은 워크쓰루의 중요한 목적 중 하나입니다. • 이것은 인스펙션에 허락되지 않으며, 기술적 리뷰에서 보통 실행되지 않습니다. 중재자는 워크쓰루에 필요하며 비공식 리뷰에도 참여할 수 있습니다. • 모든 유형의 리뷰에(비공식 리뷰 포함) 개별 준비 단계가 포함될 수 있습니다. • 모든 유형의 리뷰로 리뷰 보고서가 만들어질 수 있습니다. 다만 비공식 리뷰에서 는 결과를 반드시 문서로 기록하지 않아도 됩니다. 따라서:\na) 정답이 아닙니다. b) 정답입니다. c) 정답이 아닙니다. d) 정답이 아닙니다.",
+      "learningObjective": "FL-3.2.4",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 9
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '리뷰 유형'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 B입니다. ",
+        "wrongReasons": {
+          "a": " 이 보기는 '리뷰 유형'의 핵심 조건과 맞지 않습니다.",
+          "c": " 이 보기는 '리뷰 유형'의 핵심 조건과 맞지 않습니다.",
+          "d": " 이 보기는 '리뷰 유형'의 핵심 조건과 맞지 않습니다."
+        },
+        "beginnerTip": "ISTQB 문제는 활동 이름이 비슷하게 나오므로, 산출물이 무엇인지와 누가 수행하는지를 함께 보면 구분하기 쉽습니다.",
+        "keyPoint": "리뷰 문제는 리뷰 유형, 리뷰 활동 순서, 리뷰 역할의 책임을 분리해서 외우면 안정적으로 풀 수 있습니다.",
+        "terms": [
+          "워크쓰루",
+          "기술 리뷰",
+          "인스펙션",
+          "비공식 리뷰"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-18",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "18",
+      "type": "exam",
+      "question": "다음 중 성공적인 리뷰에 기여하는 요소가 아닌 것은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "참가자는 리뷰에 필요한 적절한 시간을 할애해야 한다"
+        },
+        {
+          "key": "b",
+          "text": "필요한 노력의 부담을 줄이기 위해 규모가 큰 작업 산출물을 작은 단위로 나눈다"
+        },
+        {
+          "key": "c",
+          "text": "참가자는 지루함, 분노, 다른 참가자에 대한 적대감으로 비칠 수 있는 행동을 삼가야 한다"
+        },
+        {
+          "key": "d",
+          "text": "식별한 장애를 인정, 환영하고 객관적으로 처리해야 한다"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "a) 정답이 아닙니다. 개인에게 적절한 시간을 할애하는 것은 성공 요소입니다. b) 정답이 아닙니다. 작업 산출물을 적절하게 나누는 것은 성공 요소입니다. c) 정답이 아닙니다. 지루함, 분노 등을 나타낼 수 있는 행동을 삼가는 것은 성공 요소입 니다. d) 정답입니다. 리뷰 중에는 장애가 아닌 결함을 찾게 됩니다.",
+      "learningObjective": "FL-3.2.5",
+      "kLevel": "K1",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 9
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '성공적인 리뷰 요인'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 D입니다. 리뷰 중에는 장애가 아닌 결함을 찾게 됩니다.",
+        "wrongReasons": {
+          "a": "개인에게 적절한 시간을 할애하는 것은 성공 요소입니다.",
+          "b": "작업 산출물을 적절하게 나누는 것은 성공 요소입니다.",
+          "c": "지루함, 분노 등을 나타낼 수 있는 행동을 삼가는 것은 성공 요소입 니다."
+        },
+        "beginnerTip": "ISTQB 문제는 활동 이름이 비슷하게 나오므로, 산출물이 무엇인지와 누가 수행하는지를 함께 보면 구분하기 쉽습니다.",
+        "keyPoint": "리뷰 문제는 리뷰 유형, 리뷰 활동 순서, 리뷰 역할의 책임을 분리해서 외우면 안정적으로 풀 수 있습니다.",
+        "terms": [
+          "리뷰 성공 요소",
+          "작업 산출물 분할",
+          "안전한 분위기"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-19",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "19",
+      "type": "exam",
+      "question": "다음 중 경험 기반(experience-based) 테스트 기법의 특징은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "테스트 케이스는 상세 설계 정보를 기반으로 작성한다"
+        },
+        {
+          "key": "b",
+          "text": "인터페이스 코드에서 테스트하는 항목은 커버리지를 측정하는 데 사용한다"
+        },
+        {
+          "key": "c",
+          "text": "이 테스트 기법은 소프트웨어 및 비즈니스 도메인에 대한 테스터의 지식에 크게 의존한다"
+        },
+        {
+          "key": "d",
+          "text": "테스트 케이스는 요구사항과의 차이를 식별하기 위해 사용한다"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "a) 정답이 아닙니다. 이것은 화이트박스 테스트 기법의 흔한 특징입니다. 테스트 컨디션, 테스트 케이스, 테스트 데이터는 테스트 베이시스에서 도출하며 코드, 소프트웨어 아키텍처, 상세 설계서, 혹은 소프트웨어의 구조에 관한 정보를 포함한 기타 출처 모두 테스트 베이시스가 될 수 있습니다. b) 정답이 아닙니다. 이것은 화이트박스 테스트 기법의 흔한 특징입니다. 커버리지는 선택된 구조 내에서 테스트된 항목과 테스트 베이시스에 적용한 테스트 기법을 기반으로 측정합 니다. c) 정답입니다. 이것은 경험 기반 테스트 기법의 흔한 특징입니다. 지식과 경험에는 소프 트웨어의 예상 사용 모습, 환경, 발생 가능한 결함, 이런 결함의 분포 등이 포함됩니다. 이런 지식과 경험은 테스트를 정의하는 데 사용됩니다. d) 정답이 아닙니다. 이것은 블랙박스 테스트 기법의 흔한 특징입니다. 테스트 케이스는 요구사항을 구현하면서 누락된 내용은 없는지, 또 요구사항에서 벗어난 정도를 식별하 는 데 사용될 수 있습니다.",
+      "learningObjective": "FL-4.1.1",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 10
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '테스트 기법 분류'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 C입니다. 이것은 경험 기반 테스트 기법의 흔한 특징입니다. 지식과 경험에는 소프 트웨어의 예상 사용 모습, 환경, 발생 가능한 결함, 이런 결함의 분포 등이 포함됩니다. 이런 지식과 경험은 테스트를 정의하는 데 사용됩니다.",
+        "wrongReasons": {
+          "a": "이것은 화이트박스 테스트 기법의 흔한 특징입니다. 테스트 컨디션, 테스트 케이스, 테스트 데이터는 테스트 베이시스에서 도출하며 코드, 소프트웨어 아키텍처, 상세 설계서, 혹은 소프트웨어의 구조에 관한 정보를 포함한 기타 출처 모두 테스트 베이시스가 될 수 있습니다.",
+          "b": "이것은 화이트박스 테스트 기법의 흔한 특징입니다. 커버리지는 선택된 구조 내에서 테스트된 항목과 테스트 베이시스에 적용한 테스트 기법을 기반으로 측정합 니다.",
+          "d": "이것은 블랙박스 테스트 기법의 흔한 특징입니다. 테스트 케이스는 요구사항을 구현하면서 누락된 내용은 없는지, 또 요구사항에서 벗어난 정도를 식별하 는 데 사용될 수 있습니다."
+        },
+        "beginnerTip": "헷갈리면 '블랙박스'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '테스트 기법 분류'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "블랙박스",
+          "화이트박스",
+          "경험 기반"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-20",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "20",
+      "type": "exam",
+      "question": "검색 옵션이 2개 뿐인 단순한 아파트 검색 기능을 테스트하고 있다. • 층(가능한 옵션 3가지: 지상 층, 1층, 2층 이상) • 정원(가능한 옵션 3가지: 정원 없음, 작은 정원, 큰 정원) 지상 층에 있는 각 아파트에는 정원이 있고, 더 높은 층의 아파트는 정원이 없다. 검색 기 능에는 이 규칙을 위반한 검색은 허용하지 않는 유효성 검사 메커니즘이 있다. 각 테스트 케이스는 층과 정원이라는 두 가지 입력 값을 가진다. 층과 정원 옵션을 테스트 하기 위해 동등분할을 적용하려고 한다. 100% 유효한 동등분할 커버리지를 달성하기 위한 최소 테스트 케이스 수는?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "3"
+        },
+        {
+          "key": "b",
+          "text": "4"
+        },
+        {
+          "key": "c",
+          "text": "5"
+        },
+        {
+          "key": "d",
+          "text": "6"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "문제에서 제시된 상황은 실러버스에서 ”각 선택(each choice)” 커버리지로 설명됩니다. “작은 정원”과 “큰 정원”은 “지상 층”과만 조합될 수 있으므로, 이 두 가지 “정원 유형” 분할을 커버하려면 “지상 층”을 포함한 두 개의 테스트 케이스가 필요합니다. 또한 두 개의 다른 “층” 분할을 커버하려면 추가로 두 개의 테스트가 더 필요합니다. “정원 유 형” 분할의 남은 ”정원 없음” 값은 이들 테스트로 커버됩니다. 따라서 총 네(4) 개의 테스트 케이스가 필요합니다:\nTC1 (지상 층, 작은 정원)\nTC2 (지상 층, 큰 정원)\nTC3 (1층, 정원 없음)\nTC4 (2층 이상, 정원 없음) 따라서, a) 정답이 아닙니다. b) 정답입니다. c) 정답이 아닙니다. d) 정답이 아닙니다.",
+      "learningObjective": "FL-4.2.1",
+      "kLevel": "K3",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 10
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '동등 분할'을 실제 상황에 적용해 계산하거나 판단하는 문제입니다. 먼저 조건을 정리한 뒤, 보기의 주장과 원문 규칙이 맞는지 비교해야 합니다.",
+        "correctReason": "정답은 B입니다. ",
+        "wrongReasons": {
+          "a": " 이 보기는 '동등 분할'의 핵심 조건과 맞지 않습니다.",
+          "c": " 이 보기는 '동등 분할'의 핵심 조건과 맞지 않습니다.",
+          "d": " 이 보기는 '동등 분할'의 핵심 조건과 맞지 않습니다."
+        },
+        "beginnerTip": "계산형·표 해석형 문제는 보기부터 고르지 말고, 원문 조건을 작은 단위로 나누어 표나 순서로 먼저 정리하면 실수를 줄일 수 있습니다.",
+        "keyPoint": "동등 분할 문제는 감으로 고르지 말고, 조건·분할·경계·규칙·전이를 먼저 세어야 합니다.",
+        "terms": [
+          "동등 분할",
+          "유효 분할",
+          "각 선택 커버리지"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-21",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "21",
+      "type": "exam",
+      "question": "학생의 최종 성적을 계산하는 시스템을 테스트하고 있다. 최종 성적은 최종 점수를 기반으로 다음 규칙에 따라 할당된다:\n• 0~50점: 탈락 • 51~60점: 보통 • 61~70점: 만족 • 71~80점: 좋음 • 81~90점: 매우 좋음 • 91~100점: 우수 당신은 다음과 같이 테스트 케이스 세트를 도출했다:\n최종 점수\n최종 성적\nTC1 91 우수\nTC2 50 탈락\nTC3 81 매우 좋음\nTC4 60 보통\nTC5 70 만족\nTC6 80 좋음 테스트 케이스로 달성한 최종 점수에 대한 두 개 선택 경계값 분석(2-value BVA) 커버리지는?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "50%"
+        },
+        {
+          "key": "b",
+          "text": "60%"
+        },
+        {
+          "key": "c",
+          "text": "33.3%"
+        },
+        {
+          "key": "d",
+          "text": "100%"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "최종 결과값은 12개의 경계값을 가지고 있습니다:\n0, 50, 51, 60, 61, 70, 71, 80, 81, 90, 91, 100. 테스트 케이스는 그 중 6개를 커버하고 있습니다. (TC1 – 91, TC2 – 50, TC3 – 81, TC4 – 60, TC5 – 70, TC7 – 51) 그러므로 테스트 케이스는 12개 중 6개, 즉 50%를 커버하고 있습니다. 따라서, a) 정답입니다. b) 정답이 아닙니다. c) 정답이 아닙니다. d) 정답이 아닙니다.",
+      "learningObjective": "FL-4.2.2",
+      "kLevel": "K3",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 11
+      },
+      "visualAsset": "assets/v1_7a_21_page11.png",
+      "visualNote": "이 문항은 원본 PDF의 표/그림을 함께 확인하는 것을 권장합니다.",
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '경계값 분석'을 실제 상황에 적용해 계산하거나 판단하는 문제입니다. 먼저 조건을 정리한 뒤, 보기의 주장과 원문 규칙이 맞는지 비교해야 합니다.",
+        "correctReason": "정답은 A입니다. ",
+        "wrongReasons": {
+          "b": " 이 보기는 '경계값 분석'의 핵심 조건과 맞지 않습니다.",
+          "c": " 이 보기는 '경계값 분석'의 핵심 조건과 맞지 않습니다.",
+          "d": " 이 보기는 '경계값 분석'의 핵심 조건과 맞지 않습니다."
+        },
+        "beginnerTip": "계산형·표 해석형 문제는 보기부터 고르지 말고, 원문 조건을 작은 단위로 나누어 표나 순서로 먼저 정리하면 실수를 줄일 수 있습니다.",
+        "keyPoint": "경계값 분석 문제는 감으로 고르지 말고, 조건·분할·경계·규칙·전이를 먼저 세어야 합니다.",
+        "terms": [
+          "BVA",
+          "2-value",
+          "3-value",
+          "경계값"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-22",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "22",
+      "type": "exam",
+      "question": "당신이 자주 이용하는 자전거 대여점에서 새로운 고객 관리 시스템을 도입했고, 단골 회원인 당신에게 테스트를 요청했다. 구현된 기능은 다음과 같다:\n• 누구나 자전거를 빌릴 수 있고, 회원은 20% 할인을 받는다 • 단, 반납기한을 어긴 경우 할인이 적용되지 않는다 •\n15회 대여 후 회원은 티셔츠를 선물로 받게 된다 구현된 기능에 대한 결정테이블은 다음과 같다.\n조건\nR1\nR2\nR3\nR4\nR5\nR6\nR7\nR8\n회원\nT\nT\nT\nT\nF\nF\nF\nF 반납기한 경과\nT\nF\nT\nF\nT\nF\nT\nF\n15회 대여\nF\nF\nT\nT\nF\nF\nT\nT\n결과 20% 할인\nX\nX\n티셔츠 선물\nX\nX\nX 고객 관리 시스템의 기능 설명만을 기준으로, 위의 조건 중 불가능한 상황인 것은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "R4"
+        },
+        {
+          "key": "b",
+          "text": "R2"
+        },
+        {
+          "key": "c",
+          "text": "R6"
+        },
+        {
+          "key": "d",
+          "text": "R8"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "a) 정답이 아닙니다. 반납 기한을 어긴 적이 없는 회원은 자전거를 15회 대여한 후 할인과 티셔츠를 선물로 받을 수 있습니다. b) 정답이 아닙니다. 반납 기한을 어긴 적이 없는 회원은 할인은 받을 수 있지만, 자전거를\n15회 대여하기 전까지는 티셔츠를 선물로 받을 수 없습니다. c) 정답이 아닙니다. 비회원은 반납 기한을 어긴 적이 없다 하더라도 할인을 받을 수 없습니다. d) 정답입니다. 반납 기한을 어긴 적이 있는 비회원은 할인을 받을 수 없고, 티셔츠 선물은 회원만 받을 수 있습니다. 따라서, 이 조건은 성립할 수 없습니다.",
+      "learningObjective": "FL-4.2.3",
+      "kLevel": "K3",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 12
+      },
+      "visualAsset": "assets/v1_7a_22_page12.png",
+      "visualNote": "이 문항은 원본 PDF의 표/그림을 함께 확인하는 것을 권장합니다.",
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '결정 테이블 테스팅'을 실제 상황에 적용해 계산하거나 판단하는 문제입니다. 먼저 조건을 정리한 뒤, 보기의 주장과 원문 규칙이 맞는지 비교해야 합니다.",
+        "correctReason": "정답은 D입니다. 반납 기한을 어긴 적이 있는 비회원은 할인을 받을 수 없고, 티셔츠 선물은 회원만 받을 수 있습니다. 따라서, 이 조건은 성립할 수 없습니다.",
+        "wrongReasons": {
+          "a": "반납 기한을 어긴 적이 없는 회원은 자전거를 15회 대여한 후 할인과 티셔츠를 선물로 받을 수 있습니다.",
+          "b": "반납 기한을 어긴 적이 없는 회원은 할인은 받을 수 있지만, 자전거를 15회 대여하기 전까지는 티셔츠를 선물로 받을 수 없습니다.",
+          "c": "비회원은 반납 기한을 어긴 적이 없다 하더라도 할인을 받을 수 없습니다."
+        },
+        "beginnerTip": "계산형·표 해석형 문제는 보기부터 고르지 말고, 원문 조건을 작은 단위로 나누어 표나 순서로 먼저 정리하면 실수를 줄일 수 있습니다.",
+        "keyPoint": "결정 테이블 테스팅 문제는 감으로 고르지 말고, 조건·분할·경계·규칙·전이를 먼저 세어야 합니다.",
+        "terms": [
+          "결정 테이블",
+          "규칙",
+          "커버리지"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-23",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "23",
+      "type": "exam",
+      "question": "다음과 같은 상태 전이 다이어그램으로 수명주기를 모델링한 시스템을 테스트해야 한다. 시스템은 INIT 상태에서 시작하고 OFF 상태에서 동작을 종료한다. 100% 유효 전이 커버리지를 달성하기 위한 최소 테스트 케이스 수는 몇 개인가?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "4"
+        },
+        {
+          "key": "b",
+          "text": "2"
+        },
+        {
+          "key": "c",
+          "text": "7"
+        },
+        {
+          "key": "d",
+          "text": "3"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "“test”와 “error” 전이는 하나의 테스트 케이스 안에서 동시에 일어날 수 없습니다. 그리고 “done” 전이 양쪽도 마찬가지입니다. 그렇기 때문에 전이 커버리지를 달성하기 위해서 적어도 3개의 테스트 케이스가 필요합니다. 예를 들자면:\nTC1: test, done\nTC2: run, error, done\nTC3: run, pause, resume, pause, done 따라서, a) 정답이 아닙니다. b) 정답이 아닙니다. c) 정답이 아닙니다. d) 정답입니다.",
+      "learningObjective": "FL-4.2.4",
+      "kLevel": "K3",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 13
+      },
+      "visualAsset": "assets/v1_7a_23_page13.png",
+      "visualNote": "이 문항은 원본 PDF의 표/그림을 함께 확인하는 것을 권장합니다.",
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '상태 전이 테스팅'을 실제 상황에 적용해 계산하거나 판단하는 문제입니다. 먼저 조건을 정리한 뒤, 보기의 주장과 원문 규칙이 맞는지 비교해야 합니다.",
+        "correctReason": "정답은 D입니다. ",
+        "wrongReasons": {
+          "a": " 이 보기는 '상태 전이 테스팅'의 핵심 조건과 맞지 않습니다.",
+          "b": " 이 보기는 '상태 전이 테스팅'의 핵심 조건과 맞지 않습니다.",
+          "c": " 이 보기는 '상태 전이 테스팅'의 핵심 조건과 맞지 않습니다."
+        },
+        "beginnerTip": "계산형·표 해석형 문제는 보기부터 고르지 말고, 원문 조건을 작은 단위로 나누어 표나 순서로 먼저 정리하면 실수를 줄일 수 있습니다.",
+        "keyPoint": "상태 전이 테스팅 문제는 감으로 고르지 말고, 조건·분할·경계·규칙·전이를 먼저 세어야 합니다.",
+        "terms": [
+          "상태 전이",
+          "유효 전이",
+          "전이 커버리지"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-24",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "24",
+      "type": "exam",
+      "question": "당신이 구성한 테스트 스위트로 100% 구문 커버리지를 달성했다. 이것은 무엇을 의미하 는가?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "코드 중 결함을 가지고 있는 각 명령어가 최소 한번은 실행됐다"
+        },
+        {
+          "key": "b",
+          "text": "당신이 만든 테스트 스위트보다 더 많은 테스트 케이스를 가진 테스트 스위트는 100% 구문 커버리지를 달성하게 될 것이다"
+        },
+        {
+          "key": "c",
+          "text": "코드에 있는 모든 경로가 한번 이상 실행됐다"
+        },
+        {
+          "key": "d",
+          "text": "입력값의 모든 조합이 적어도 한번은 테스트됐다"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "a) 정답입니다. 100% 구문 커버리지가 달성되었으므로 모든 구문은(결함이 있는 것을 포함해서) 최소 한번 실행 및 평가된 것으로 볼 수 있습니다. b) 정답이 아닙니다. 커버리지는 테스트 케이스의 수가 아니라 무엇이 테스트됐는지에 따라 달라집니다. 예를 들어, “if (x==0) y+1”이라는 코드에 대해서 (x=0)이라는 하나의 테스트 케이스는 100% 구문 커버리지를 달성하지만, (x=1)과 (x=2)라는 두개의 테스트 케이스는 합쳐서 50% 구문 커버리지 밖에 달성하지 못합니다. c) 정답이 아닙니다. 코드에 루프가 포함돼 있으면 가능 경로는 무한하게 많아질 수 있기 때문에 코드의 가능 경로를 모두 실행하는 것은 불가능할 수 있습니다. d) 정답이 아닙니다. 완벽한 테스팅은 불가능합니다(실라버스의 7가지 테스팅 원리를 참조 하십시오). 예를 들어, “input x; print x”라는 코드가 있으면, 임의로 선택한 x값을 가진 하나의 테스트로 100% 구문 커버리지를 달성할 수 있지만, 커버되는 입력값은 하나뿐 입니다.",
+      "learningObjective": "FL-4.3.1",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 13
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '구문 커버리지'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 A입니다. 100% 구문 커버리지가 달성되었으므로 모든 구문은(결함이 있는 것을 포함해서) 최소 한번 실행 및 평가된 것으로 볼 수 있습니다.",
+        "wrongReasons": {
+          "b": "커버리지는 테스트 케이스의 수가 아니라 무엇이 테스트됐는지에 따라 달라집니다. 예를 들어, “if (x==0) y+1”이라는 코드에 대해서 (x=0)이라는 하나의 테스트 케이스는 100% 구문 커버리지를 달성하지만, (x=1)과 (x=2)라는 두개의 테스트 케이스는 합쳐서 50% 구문 커버리지 밖에 달성하지 못합니다.",
+          "c": "코드에 루프가 포함돼 있으면 가능 경로는 무한하게 많아질 수 있기 때문에 코드의 가능 경로를 모두 실행하는 것은 불가능할 수 있습니다.",
+          "d": "완벽한 테스팅은 불가능합니다(실라버스의 7가지 테스팅 원리를 참조 하십시오). 예를 들어, “input x; print x”라는 코드가 있으면, 임의로 선택한 x값을 가진 하나의 테스트로 100% 구문 커버리지를 달성할 수 있지만, 커버되는 입력값은 하나뿐 입니다."
+        },
+        "beginnerTip": "헷갈리면 '구문 커버리지'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '구문 커버리지'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "구문 커버리지",
+          "실행문",
+          "화이트박스"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-25",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "25",
+      "type": "exam",
+      "question": "다음 중 화이트박스 테스팅에 대한 설명으로 옳지 않은 것은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "화이트박스 테스팅을 진행하는 동안 전체 소프트웨어 구현을 고려하게 된다"
+        },
+        {
+          "key": "b",
+          "text": "화이트박스 커버리지 측정지표는 코드 커버리지를 늘리기 위해 추가로 필요한 테스트 를 식별하는 데 도움이 될 수 있다"
+        },
+        {
+          "key": "c",
+          "text": "화이트박스 테스트 기법은 정적 테스팅에 사용할 수 있다"
+        },
+        {
+          "key": "d",
+          "text": "화이트박스 테스팅은 구현된 사항이 요구사항과 어떤 차이가 있는지 식별하는 데 도움이 될 수 있다"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "a) 정답이 아닙니다. 화이트박스 테스트 기법의 근본적인 강점은 테스팅 중 전체 소프트웨어 구현을 고려한다는 것입니다. b) 정답이 아닙니다. 화이트박스 커버리지 지표는 커버리지에 대한 객관적인 수치를 제공하 고, 커버리지를 높이기 위한 추가적인 테스트를 생성하는 데 필요한 정보를 제공합니다. c) 정답이 아닙니다. 화이트박스 테스트 기법은 리뷰를 수행하는 데 사용할 수 있습니다. (정적 테스팅) d) 정답입니다. 이것은 화이트박스 테스트 기법의 약점입니다. 구현 누락을 식별하지 못합니 다. 이런 기법은 요구사항 명세가 아닌 테스트 대상의 구조만을 기반으로 하기 때문입니다.",
+      "learningObjective": "FL-4.3.3",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 14
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '화이트박스 테스팅의 가치와 한계'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 D입니다. 이것은 화이트박스 테스트 기법의 약점입니다. 구현 누락을 식별하지 못합니 다. 이런 기법은 요구사항 명세가 아닌 테스트 대상의 구조만을 기반으로 하기 때문입니다.",
+        "wrongReasons": {
+          "a": "화이트박스 테스트 기법의 근본적인 강점은 테스팅 중 전체 소프트웨어 구현을 고려한다는 것입니다.",
+          "b": "화이트박스 커버리지 지표는 커버리지에 대한 객관적인 수치를 제공하 고, 커버리지를 높이기 위한 추가적인 테스트를 생성하는 데 필요한 정보를 제공합니다.",
+          "c": "화이트박스 테스트 기법은 리뷰를 수행하는 데 사용할 수 있습니다. (정적 테스팅)"
+        },
+        "beginnerTip": "헷갈리면 '화이트박스'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '화이트박스 테스팅의 가치와 한계'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "화이트박스",
+          "구현 구조",
+          "요구사항 누락"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-26",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "26",
+      "type": "exam",
+      "question": "다음 중 오류 추정(Error guessing)의 개념을 가장 잘 설명한 것은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "오류 추정은 과거 식별한 결함과 개발자가 일반적으로 하는 실수에 대해 테스터가 가 진 지식과 경험을 활용한다"
+        },
+        {
+          "key": "b",
+          "text": "오류 추정은 테스터의 개인적인 개발 경험과 개발자로서 했던 실수에 대한 경험을 활용한다"
+        },
+        {
+          "key": "c",
+          "text": "오류 추정을 위해서는 테스터가 테스트하는 대상의 사용자라고 상상하고 사용자가 테스트 대상과 상호 작용하면서 부딪힐 수 있는 오류를 추정해야 한다"
+        },
+        {
+          "key": "d",
+          "text": "오류 추정을 위해서는 개발자가 할만한 실수를 파악하기 위해 개발 과정을 빠르게 직접 따라해 봐야 한다"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "a) 정답입니다. 오류 추정의 기본 개념은 테스터가 (때로는 체크리스트와 함께) 과거의 경험을 기반으로 개발자의 오류나 테스트 대상에 있는 결함을 추정하는 것입니다. b) 정답이 아닙니다. 오류 추정을 수행할 때 이전에 개발자였던 테스터가 개인적인 경험을 활용할 수 있지만, 이 테스트 기법이 개발에 대한 사전지식을 기반으로 하진 않습니다. c) 정답이 아닙니다. 오류 추정은 사용자가 테스트 대상과 상호작용에 실패하는 방법을 추정하는 데 사용하는 기법이 아닙니다. d) 정답이 아닙니다. 개발 업무를 모방하는 것은 테스터가 개발자와 동등한 수준의 개발 능력을 갖고 있어야 한다는 점과 개발을 위한 시간이 필요하다는 점에서 비현실적인 면이 있습니다. 이것은 오류 추정이 아닙니다.",
+      "learningObjective": "FL-4.4.1",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 14
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '오류 추정'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 A입니다. 오류 추정의 기본 개념은 테스터가 (때로는 체크리스트와 함께) 과거의 경험을 기반으로 개발자의 오류나 테스트 대상에 있는 결함을 추정하는 것입니다.",
+        "wrongReasons": {
+          "b": "오류 추정을 수행할 때 이전에 개발자였던 테스터가 개인적인 경험을 활용할 수 있지만, 이 테스트 기법이 개발에 대한 사전지식을 기반으로 하진 않습니다.",
+          "c": "오류 추정은 사용자가 테스트 대상과 상호작용에 실패하는 방법을 추정하는 데 사용하는 기법이 아닙니다.",
+          "d": "개발 업무를 모방하는 것은 테스터가 개발자와 동등한 수준의 개발 능력을 갖고 있어야 한다는 점과 개발을 위한 시간이 필요하다는 점에서 비현실적인 면이 있습니다. 이것은 오류 추정이 아닙니다."
+        },
+        "beginnerTip": "헷갈리면 '오류 추정'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '오류 추정'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "오류 추정",
+          "결함 공격",
+          "경험 기반"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-27",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "27",
+      "type": "exam",
+      "question": "프로젝트에서 새로운 애플리케이션의 출시가 지연되고 테스트가 늦게 시작되었지만 당 신은 매우 상세한 도메인 지식과 우수한 분석 기술을 보유하고 있다. 요구사항 전체 목록이 아직 팀과 공유되지 않았지만, 관리자는 테스트 결과를 일부라도 보여달라고 한다. 이 상황에 가장 적합한 테스트 기법은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "체크리스트 기반 테스팅(Checklist-based testing)"
+        },
+        {
+          "key": "b",
+          "text": "오류 추정(Error guessing)"
+        },
+        {
+          "key": "c",
+          "text": "탐색적 테스팅(Exploratory testing)"
+        },
+        {
+          "key": "d",
+          "text": "분기 테스팅(Branch testing)"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "a) 정답이 아닙니다. 이것은 새 제품입니다. 체크리스트는 아직 없을 가능성이 크고 누락된 요구사항으로 인해 테스트 컨디션을 아직 모를 수 있습니다. b) 정답이 아닙니다. 이것은 새 제품입니다. 올바른 오류 추정을 하기에 충분한 정보는 아직 없을 것입니다. c) 정답입니다. 탐색적 테스팅은 알려진 명세나 테스트 시간, 또는 양쪽 모두 부족할 때 가장 유용합니다. d) 정답이 아닙니다. 분기 테스팅은 시간이 오래 걸리며 관리자는 테스트 결과를 지금 보여달라고 합니다. 또한, 분기 테스팅을 위해 도메인 지식이 필요하진 않습니다.",
+      "learningObjective": "FL-4.4.2",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 14
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '탐색적 테스팅'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 C입니다. 탐색적 테스팅은 알려진 명세나 테스트 시간, 또는 양쪽 모두 부족할 때 가장 유용합니다.",
+        "wrongReasons": {
+          "a": "이것은 새 제품입니다. 체크리스트는 아직 없을 가능성이 크고 누락된 요구사항으로 인해 테스트 컨디션을 아직 모를 수 있습니다.",
+          "b": "이것은 새 제품입니다. 올바른 오류 추정을 하기에 충분한 정보는 아직 없을 것입니다.",
+          "d": "분기 테스팅은 시간이 오래 걸리며 관리자는 테스트 결과를 지금 보여달라고 합니다. 또한, 분기 테스팅을 위해 도메인 지식이 필요하진 않습니다."
+        },
+        "beginnerTip": "헷갈리면 '탐색적 테스팅'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '탐색적 테스팅'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "탐색적 테스팅",
+          "명세 부족",
+          "시간 압박"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-28",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "28",
+      "type": "exam",
+      "question": "다음 중 인수 조건을 문서화하는 방법을 가장 잘 설명한 것은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "주어진 사용자 스토리 관련 이해관계자의 실제 요구사항을 판단하기 위해 회고를 수 행한다"
+        },
+        {
+          "key": "b",
+          "text": "주어진 사용자 스토리와 관련된 예제 테스트 컨디션을 설명하기 위해 given/when/then 형식을 사용해 작성한다"
+        },
+        {
+          "key": "c",
+          "text": "다른 사람들과 인수 조건에 대해 오해할 위험을 줄이기 위해 구두로 의사소통을 한다"
+        },
+        {
+          "key": "d",
+          "text": "주어진 사용자 스토리에 대해 리스크 기반 테스팅이 이루어질 수 있도록 사용자 스 토리 관련 리스크를 테스트 계획서에 기록한다"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "a) 정답이 아닙니다. 회고는 교훈을 포착하고 개발과 테스팅 프로세스를 개선하기 위해 사용되지, 인수 조건을 문서화하기 위한 것이 아닙니다. b) 정답입니다. 이것은 인수 조건을 문서화하는 표준적인 방법입니다. c) 정답이 아닙니다. 구두로 의사 소통하면 사용자 스토리의 일부로 인수 조건을 문서화하는 것은 불가능하게 됩니다. (3C 모델의 ‘카드(card)’ 측면) d) 정답이 아닙니다. 인수 조건은 사용자 스토리와 관련 있지, 테스트 계획과는 무관합니다. 또한, 인수 조건은 사용자 스토리가 끝났는지 판단하기 위해 충족되어야 하는 조건입니다. 리스크가 그런 조건은 아닙니다.",
+      "learningObjective": "FL-4.5.2",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 15
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '인수 조건 문서화'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 B입니다. 이것은 인수 조건을 문서화하는 표준적인 방법입니다.",
+        "wrongReasons": {
+          "a": "회고는 교훈을 포착하고 개발과 테스팅 프로세스를 개선하기 위해 사용되지, 인수 조건을 문서화하기 위한 것이 아닙니다.",
+          "c": "구두로 의사 소통하면 사용자 스토리의 일부로 인수 조건을 문서화하는 것은 불가능하게 됩니다. (3C 모델의 ‘카드(card)’ 측면)",
+          "d": "인수 조건은 사용자 스토리와 관련 있지, 테스트 계획과는 무관합니다. 또한, 인수 조건은 사용자 스토리가 끝났는지 판단하기 위해 충족되어야 하는 조건입니다. 리스크가 그런 조건은 아닙니다."
+        },
+        "beginnerTip": "헷갈리면 '인수 조건'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '인수 조건 문서화'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "인수 조건",
+          "Given/When/Then",
+          "시나리오"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-29",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "29",
+      "type": "exam",
+      "question": "다음과 같은 사용자 스토리와 인수 조건이 주어졌다:\n사용자 스토리 편집자로서 문서가 게시되기 전에 내용을 리뷰해 문법이 정확한지 확인하려고 한다. 인수 조건 • 사용자는 “편집자” 역할로 문서 관리 시스템에 로그인할 수 있다 • 편집자는 기존 문서 페이지를 볼 수 있다 • 편집자는 페이지 내용을 편집할 수 있다 • 편집자는 마크업 메모를 추가할 수 있다 • 편집자는 변경 사항을 저장할 수 있다 • 편집자는 업데이트를 위해 “문서 소유자”로 역할을 바꿀 수 있다 다음 중 이 사용자 스토리에 대한 인수 테스트 주도 개발(ATDD) 테스트의 예로 가장 적절한 것은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "편집자가 페이지 내용을 편집한 후 문서를 저장할 수 있는지 확인하는 테스트"
+        },
+        {
+          "key": "b",
+          "text": "문서 소유자가 로그인하여 문서를 업데이트할 수 있는지 확인하는 테스트"
+        },
+        {
+          "key": "c",
+          "text": "편집자가 편집된 문서의 게시 일정을 예약할 수 있는지 확인하는 테스트"
+        },
+        {
+          "key": "d",
+          "text": "편집자가 업데이트를 위해 다른 편집자를 지정할 수 있는지 확인하는 테스트"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "a) 정답입니다. 이 테스트는 두 개의 인수 조건을 커버하고 있습니다: 하나는 문서 편집과 관련된 것이고 하나는 수정 사항을 저장하는 것과 관련된 것입니다. b) 정답이 아닙니다. 인수 조건은 편집자의 활동에 대한 것이지, 문서 소유자의 활동을 다루지 않습니다. c) 정답이 아닙니다. 편집된 문서의 배포 일정을 예약하는 것은 좋은 기능일 수는 있으나, 인수 조건에서 다루지 않습니다. d) 정답이 아닙니다. 인수 조건은 편집자에서 다른 편집자로의 역할 변경이 아닌, 문서 소유자로 역할을 바꾸는 것에 대해 이야기하고 있습니다.",
+      "learningObjective": "FL-4.5.3",
+      "kLevel": "K3",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 15
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '사용자 스토리 기반 테스트'을 실제 상황에 적용해 계산하거나 판단하는 문제입니다. 먼저 조건을 정리한 뒤, 보기의 주장과 원문 규칙이 맞는지 비교해야 합니다.",
+        "correctReason": "정답은 A입니다. 이 테스트는 두 개의 인수 조건을 커버하고 있습니다: 하나는 문서 편집과 관련된 것이고 하나는 수정 사항을 저장하는 것과 관련된 것입니다.",
+        "wrongReasons": {
+          "b": "인수 조건은 편집자의 활동에 대한 것이지, 문서 소유자의 활동을 다루지 않습니다.",
+          "c": "편집된 문서의 배포 일정을 예약하는 것은 좋은 기능일 수는 있으나, 인수 조건에서 다루지 않습니다.",
+          "d": "인수 조건은 편집자에서 다른 편집자로의 역할 변경이 아닌, 문서 소유자로 역할을 바꾸는 것에 대해 이야기하고 있습니다."
+        },
+        "beginnerTip": "헷갈리면 'ATDD'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '사용자 스토리 기반 테스트'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "ATDD",
+          "인수 조건",
+          "사용자 스토리"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-30",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "30",
+      "type": "exam",
+      "question": "다음 중 테스터가 반복주기 및 릴리스 계획에 기여하는 방법을 올바르게 설명한 것은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "테스터는 개발할 사용자 스토리의 우선순위를 결정한다"
+        },
+        {
+          "key": "b",
+          "text": "테스터는 테스트할 시스템의 기능적 측면에만 집중한다"
+        },
+        {
+          "key": "c",
+          "text": "테스터는 사용자 스토리에 대한 구체적인 리스크 식별 및 평가 과정에 참여한다"
+        },
+        {
+          "key": "d",
+          "text": "테스터는 릴리스 계획 단계에서 조기 테스트 설계를 통한 고품질 소프트웨어의 출시를 보장한다"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "a) 정답이 아닙니다. 사용자 스토리의 우선순위는 개발팀과 함께 비즈니스 담당자가 결정합니다. b) 정답이 아닙니다. 테스터는 테스트 대상 시스템의 기능 및 비기능 측면 모두에 초점을 맞춥니다. c) 정답입니다. 실라버스에 의하면 이것은 테스터가 반복 주기와 릴리스 계획에 가치를 제공하는 방법 중 하나입니다. d) 정답이 아닙니다. 조기 테스트 설계는 릴리스 계획의 일부가 아닙니다. 조기 테스트 설계로 자동으로 고품질 소프트웨어의 배포가 보장되는 것은 아닙니다.",
+      "learningObjective": "FL-5.1.2",
+      "kLevel": "K1",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 16
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '반복주기와 릴리스 계획에서 테스터의 기여'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 C입니다. 실라버스에 의하면 이것은 테스터가 반복 주기와 릴리스 계획에 가치를 제공하는 방법 중 하나입니다.",
+        "wrongReasons": {
+          "a": "사용자 스토리의 우선순위는 개발팀과 함께 비즈니스 담당자가 결정합니다.",
+          "b": "테스터는 테스트 대상 시스템의 기능 및 비기능 측면 모두에 초점을 맞춥니다.",
+          "d": "조기 테스트 설계는 릴리스 계획의 일부가 아닙니다. 조기 테스트 설계로 자동으로 고품질 소프트웨어의 배포가 보장되는 것은 아닙니다."
+        },
+        "beginnerTip": "헷갈리면 '반복 계획'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '반복주기와 릴리스 계획에서 테스터의 기여'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "반복 계획",
+          "릴리스 계획",
+          "리스크 식별"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-31",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "31",
+      "type": "exam",
+      "question": "다음 중 시스템 테스팅 완료 기준이 될 수 있는 두 가지는?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "테스트 환경 준비 상황"
+        },
+        {
+          "key": "b",
+          "text": "테스터가 테스트 대상에 로그인할 수 있는지 여부"
+        },
+        {
+          "key": "c",
+          "text": "예상 결함 밀도 도달"
+        },
+        {
+          "key": "d",
+          "text": "given/when/then 형식으로의 요구사항 변환"
+        },
+        {
+          "key": "e",
+          "text": "리그레션 테스트 자동화"
+        }
+      ],
+      "answer": [
+        "c",
+        "e"
+      ],
+      "explanation": "a) 정답이 아닙니다. 테스트 환경 준비 상황은 자원 가용성에 대한 조건입니다. 따라서 이것은 시작 조건에 해당합니다. b) 정답이 아닙니다. 이것은 자원 가용성 조건입니다. 따라서 이것은 시작 조건에 해당합니다. c) 정답입니다. 예상 결함 밀도는 충분함에 대한 측정입니다. 따라서 이것은 완료 조건에 해당합니다. d) 정답이 아닙니다. 정해진 형식으로의 요구사항 변환은 테스트 가능한 요구사항을 얻을 수 있게 합니다. 따라서 이것은 시작 조건에 해당합니다. e) 정답입니다. 리그레션 테스트의 자동화는 종료 조건입니다. 따라서 이것은 완료 조건에 해당합니다.",
+      "learningObjective": "FL-5.1.3",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 16
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "복수정답 문항입니다. 이 문제는 '시작 조건과 완료 조건'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 C, E입니다. 예상 결함 밀도는 충분함에 대한 측정입니다. 따라서 이것은 완료 조건에 해당합니다. 리그레션 테스트의 자동화는 종료 조건입니다. 따라서 이것은 완료 조건에 해당합니다.",
+        "wrongReasons": {
+          "a": "테스트 환경 준비 상황은 자원 가용성에 대한 조건입니다. 따라서 이것은 시작 조건에 해당합니다.",
+          "b": "이것은 자원 가용성 조건입니다. 따라서 이것은 시작 조건에 해당합니다.",
+          "d": "정해진 형식으로의 요구사항 변환은 테스트 가능한 요구사항을 얻을 수 있게 합니다. 따라서 이것은 시작 조건에 해당합니다."
+        },
+        "beginnerTip": "문제에서 두 가지 또는 복수 선택을 요구하면, 맞는 보기 하나를 찾고 끝내지 말고 나머지 보기까지 같은 기준으로 검토해야 합니다.",
+        "keyPoint": "핵심은 '시작 조건과 완료 조건'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "완료 조건",
+          "시작 조건",
+          "결함 밀도"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-32",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "32",
+      "type": "exam",
+      "question": "당신의 팀은 3점 추정 기법을 사용해 리스크가 높은 새로운 기능에 대한 테스트 노력을 추 정하고 있다. 다음과 같은 추정이 이루어졌다. • 가장 낙관적인 추정: 2M/H • 가장 유력한 추정: 11M/H • 가장 비관적인 추정: 14M/H 최종 추정치는 얼마인가?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "9M/H"
+        },
+        {
+          "key": "b",
+          "text": "14M/H"
+        },
+        {
+          "key": "c",
+          "text": "11M/H"
+        },
+        {
+          "key": "d",
+          "text": "10M/H"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "3점 추정 기법에서:\n추정치 = (가장 낙관적 + 4* 가장 유력한 + 가장 비관적)/6 추정치 = (2+(4*11)+14)/6 = 10 따라서:\na) 정답이 아닙니다. b) 정답이 아닙니다. c) 정답이 아닙니다. d) 정답입니다.",
+      "learningObjective": "FL-5.1.4",
+      "kLevel": "K3",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 16
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '테스트 노력 추정'을 실제 상황에 적용해 계산하거나 판단하는 문제입니다. 먼저 조건을 정리한 뒤, 보기의 주장과 원문 규칙이 맞는지 비교해야 합니다.",
+        "correctReason": "정답은 D입니다. ",
+        "wrongReasons": {
+          "a": " 이 보기는 '테스트 노력 추정'의 핵심 조건과 맞지 않습니다.",
+          "b": " 이 보기는 '테스트 노력 추정'의 핵심 조건과 맞지 않습니다.",
+          "c": " 이 보기는 '테스트 노력 추정'의 핵심 조건과 맞지 않습니다."
+        },
+        "beginnerTip": "계산형·표 해석형 문제는 보기부터 고르지 말고, 원문 조건을 작은 단위로 나누어 표나 순서로 먼저 정리하면 실수를 줄일 수 있습니다.",
+        "keyPoint": "핵심은 '테스트 노력 추정'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "3점 추정",
+          "플래닝 포커",
+          "추정"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-33",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "33",
+      "type": "exam",
+      "question": "사용자가 먹고 싶은 음식에 따라 근처 식당을 검색하는 모바일 애플리케이션을 테스트 하고 있다. 테스트 케이스, 우선순위(숫자가 작을수록 우선순위가 높음), 종속성은 다음과 같다.\n번호 커버되는 테스트 컨디션 우선순위 논리적 종속성\nTC001 음식 종류 선택 3 없음\nTC002 음식점 선택 2\nTC001\nTC003 경로 획득 1\nTC002\nTC004 식당에 전화하기 2\nTC002\nTC005 예약하기 3\nTC002 다음 중 세 번째로 실행할 테스트 케이스는?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "TC003"
+        },
+        {
+          "key": "b",
+          "text": "TC005"
+        },
+        {
+          "key": "c",
+          "text": "TC002"
+        },
+        {
+          "key": "d",
+          "text": "TC001"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "테스트 TC 001이 무조건 처음에 와야 하며, 그 다음으로 종속성을 만족시키기 위해 TC 002가 따라와야 합니다. 그 다음으로 우선순위를 만족시키기 위해 TC 003이 와야 하고, 그 뒤로 TC 004, TC 005가 따라와야 합니다. 따라서:\na) 정답입니다. b) 정답이 아닙니다. c) 정답이 아닙니다. d) 정답이 아닙니다.",
+      "learningObjective": "FL-5.1.5",
+      "kLevel": "K3",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 17
+      },
+      "visualAsset": "assets/v1_7a_33_page17.png",
+      "visualNote": "이 문항은 원본 PDF의 표/그림을 함께 확인하는 것을 권장합니다.",
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '테스트 케이스 우선순위와 종속성'을 실제 상황에 적용해 계산하거나 판단하는 문제입니다. 먼저 조건을 정리한 뒤, 보기의 주장과 원문 규칙이 맞는지 비교해야 합니다.",
+        "correctReason": "정답은 A입니다. ",
+        "wrongReasons": {
+          "b": " 이 보기는 '테스트 케이스 우선순위와 종속성'의 핵심 조건과 맞지 않습니다.",
+          "c": " 이 보기는 '테스트 케이스 우선순위와 종속성'의 핵심 조건과 맞지 않습니다.",
+          "d": " 이 보기는 '테스트 케이스 우선순위와 종속성'의 핵심 조건과 맞지 않습니다."
+        },
+        "beginnerTip": "계산형·표 해석형 문제는 보기부터 고르지 말고, 원문 조건을 작은 단위로 나누어 표나 순서로 먼저 정리하면 실수를 줄일 수 있습니다.",
+        "keyPoint": "핵심은 '테스트 케이스 우선순위와 종속성'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "우선순위",
+          "종속성",
+          "실행 순서"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-34",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "34",
+      "type": "exam",
+      "question": "다음 중 테스트 유형과 애자일 테스팅 사분면이 올바르게 짝지어진 것은?\n1. 사용성 테스팅 2. 단위 테스팅 3. 기능 테스팅 4. 신뢰성 테스팅\nA. 1사분면: 기술 측면, 개발팀 지원\nB. 2사분면: 비즈니스 측면, 개발팀 지원\nC. 3사분면: 비즈니스 측면, 제품 평가\nD. 4사분면: 기술 측면, 제품 평가",
+      "choices": [
+        {
+          "key": "a",
+          "text": "1C, 2A, 3B, 4D"
+        },
+        {
+          "key": "b",
+          "text": "1D, 2A, 3C, 4B"
+        },
+        {
+          "key": "c",
+          "text": "1C, 2B, 3D, 4A"
+        },
+        {
+          "key": "d",
+          "text": "1D, 2B, 3C, 4A"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "다음을 근거로:\n• 사용성 테스팅은 3사분면입니다. (1 – C) • 단위 테스팅은 1사분면입니다. (2 – A) • 기능 테스팅은 2사분면입니다. (3 – B) • 신뢰성 테스팅은 4사분면입니다. (4 – D) 따라서:\na) 정답입니다. b) 정답이 아닙니다. c) 정답이 아닙니다. d) 정답이 아닙니다.",
+      "learningObjective": "FL-5.1.7",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 17
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '테스팅 사분면'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 A입니다. ",
+        "wrongReasons": {
+          "b": " 이 보기는 '테스팅 사분면'의 핵심 조건과 맞지 않습니다.",
+          "c": " 이 보기는 '테스팅 사분면'의 핵심 조건과 맞지 않습니다.",
+          "d": " 이 보기는 '테스팅 사분면'의 핵심 조건과 맞지 않습니다."
+        },
+        "beginnerTip": "헷갈리면 '테스팅 사분면'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '테스팅 사분면'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "테스팅 사분면",
+          "팀 지원",
+          "제품 평가"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-35",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "35",
+      "type": "exam",
+      "question": "리스크 분석 결과 다음 리스크가 식별되고 평가되었다. • 리스크: 보고서 생성에 너무 많은 시간이 걸린다 • 리스크 발생 가능성: 중간; 리스크 영향도: 높음 • 리스크 대응 방법:\n- 시스템 테스팅 중에 독립적인 테스트팀이 성능 효율성 테스팅을 수행한다 - 최종 사용자 표본 집단을 선별해 릴리스 전에 알파 테스팅과 베타 테스팅을 수행한다 다음 중 분석한 리스크에 대해 대응 방법으로 제안된 것은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "리스크 수용 (Risk acceptance)"
+        },
+        {
+          "key": "b",
+          "text": "비상 대책 (Contingency plan)"
+        },
+        {
+          "key": "c",
+          "text": "리스크 완화 (Risk mitigation)"
+        },
+        {
+          "key": "d",
+          "text": "리스크 전가 (Risk transfer)"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "a) 정답이 아닙니다. 리스크를 수용하지 않았습니다. 명확한 대응 방법이 제안되어 있습니다. b) 정답이 아닙니다. 제안된 비상 대책은 없습니다. c) 정답입니다. 제안된 대응 방법은 리스크 완화 방법인 테스팅과 관련되어 있습니다. d) 정답이 아닙니다. 리스크는 전가되지 않고 완화되고 있습니다.",
+      "learningObjective": "FL-5.2.4",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 18
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '리스크 대응 방법'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 C입니다. 제안된 대응 방법은 리스크 완화 방법인 테스팅과 관련되어 있습니다.",
+        "wrongReasons": {
+          "a": "리스크를 수용하지 않았습니다. 명확한 대응 방법이 제안되어 있습니다.",
+          "b": "제안된 비상 대책은 없습니다. 이 보기는 '리스크 대응 방법'의 핵심 조건과 맞지 않습니다.",
+          "d": "리스크는 전가되지 않고 완화되고 있습니다."
+        },
+        "beginnerTip": "헷갈리면 '리스크 완화'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "리스크 문제는 발생 가능성, 영향도, 리스크 수준, 대응 방법을 분리해서 생각해야 합니다.",
+        "terms": [
+          "리스크 완화",
+          "리스크 수용",
+          "리스크 전가"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-36",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "36",
+      "type": "exam",
+      "question": "다음 중 주어진 반복주기에서 완료된 작업량과 남은 총 작업량을 보여주기 위해 애자일 팀이 사용할 수 있는 작업 산출물은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "인수 조건"
+        },
+        {
+          "key": "b",
+          "text": "결함 보고서"
+        },
+        {
+          "key": "c",
+          "text": "테스트 완료 보고서"
+        },
+        {
+          "key": "d",
+          "text": "번다운(Burndown) 차트"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "a) 정답이 아닙니다. 인수 조건은 사용자 스토리가 준비되었는지 판단할 때 사용하는 기준 입니다. 작업 진행 상황을 보여주진 않습니다. b) 정답이 아닙니다. 결함 보고서는 결함에 대한 정보를 제공합니다. 작업 진행 상황을 보여 주진 않습니다. c) 정답이 아닙니다. 테스트 완료 보고서는 반복 주기가 끝나야 만들 수 있기 때문에 반복 주기 동안의 작업 진행 상황을 보여주진 않습니다. d) 정답입니다. 번다운 차트는 남은 시간 대비 남은 작업량을 시각적으로 보여줍니다. 지속적으로 작업 진행 상황을 보여주기 위해 매일 업데이트됩니다.",
+      "learningObjective": "FL-5.3.3",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 18
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '테스트 진행 상황 시각화'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 D입니다. 번다운 차트는 남은 시간 대비 남은 작업량을 시각적으로 보여줍니다. 지속적으로 작업 진행 상황을 보여주기 위해 매일 업데이트됩니다.",
+        "wrongReasons": {
+          "a": "인수 조건은 사용자 스토리가 준비되었는지 판단할 때 사용하는 기준 입니다. 작업 진행 상황을 보여주진 않습니다.",
+          "b": "결함 보고서는 결함에 대한 정보를 제공합니다. 작업 진행 상황을 보여 주진 않습니다.",
+          "c": "테스트 완료 보고서는 반복 주기가 끝나야 만들 수 있기 때문에 반복 주기 동안의 작업 진행 상황을 보여주진 않습니다."
+        },
+        "beginnerTip": "헷갈리면 '번다운 차트'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '테스트 진행 상황 시각화'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "번다운 차트",
+          "작업량",
+          "애자일"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-37",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "37",
+      "type": "exam",
+      "question": "새로운 요구사항에 맞게 자동화된 테스트 스크립트 중 하나를 업데이트해야 한다. 다음 중 테스트 저장소에 새로운 버전의 테스트 스크립트를 생성하도록 하는 프로세스는?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "추적성 관리(Traceability management)"
+        },
+        {
+          "key": "b",
+          "text": "유지보수 테스팅(Maintenance testing)"
+        },
+        {
+          "key": "c",
+          "text": "형상 관리(Configuration management)"
+        },
+        {
+          "key": "d",
+          "text": "요구공학(Requirements engineering)"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "a) 정답이 아닙니다. 추적성은 두 개 이상의 작업 산출물 사이의 관계에 대한 것이지 같은 작업 산출물의 다른 버전 간의 관계에 대한 것이 아닙니다. b) 정답이 아닙니다. 유지보수 테스팅은 수정 사항을 테스트하는 것과 관련 있습니다. 버전 제어와 밀접한 관계는 없습니다. c) 정답입니다. 테스팅을 지원하기 위해 형상 관리에 모든 테스트 항목의 버전 제어가 포함될 수 있습니다. d) 정답이 아닙니다. 요구공학은 요구사항의 도출, 문서화, 관리에 대한 것입니다. 테스트 스크립트 버전 제어와 밀접한 관계는 없습니다.",
+      "learningObjective": "FL-5.4.1",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 19
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '형상 관리'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 C입니다. 테스팅을 지원하기 위해 형상 관리에 모든 테스트 항목의 버전 제어가 포함될 수 있습니다.",
+        "wrongReasons": {
+          "a": "추적성은 두 개 이상의 작업 산출물 사이의 관계에 대한 것이지 같은 작업 산출물의 다른 버전 간의 관계에 대한 것이 아닙니다.",
+          "b": "유지보수 테스팅은 수정 사항을 테스트하는 것과 관련 있습니다. 버전 제어와 밀접한 관계는 없습니다.",
+          "d": "요구공학은 요구사항의 도출, 문서화, 관리에 대한 것입니다. 테스트 스크립트 버전 제어와 밀접한 관계는 없습니다."
+        },
+        "beginnerTip": "헷갈리면 '형상 관리'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '형상 관리'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "형상 관리",
+          "버전 관리",
+          "테스트 항목"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-38",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "38",
+      "type": "exam",
+      "question": "당신은 개발자로부터 테스트 보고서에 설명된 이상 현상이 재현 불가능하다는 다음과 같은 결함 보고서를 받았다. 애플리케이션 멈춤 2022년 5월 3일 – John Doe – 거부 새로운 사용자 생성 화면의 이름 필드에 “테스트 입력값: $ä”를 입력하면 애플리케이 션이 멈춥니다. 로그오프하고 test_admin01 계정으로 재 로그인을 시도했지만 동일한 문제가 발생합니다. 다른 테스트 관리자 계정으로 시도했지만 동일한 문제가 발생합 니다. 오류 메시지는 출력되지 않았으며, 로그(첨부 참조)에는 치명적인 오류 알림이 포함되어 있습니다. 테스트 케이스 TC-1305에 따르면, 애플리케이션은 제공된 입력값 을 인식하고 사용자를 생성해야 합니다. 이 기능은 중요한 새로운 비즈니스 요구사항 인 REQ-0012와 관련이 있으므로, 높은 우선순위로 수정해 주기 바랍니다. 개발자에게 유용했을 이 테스트 보고서에서 누락된 중요한 정보는 무엇인가?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "기대 결과와 실제 결과"
+        },
+        {
+          "key": "b",
+          "text": "참고자료 및 결함 상태"
+        },
+        {
+          "key": "c",
+          "text": "테스트 환경 및 테스트 항목"
+        },
+        {
+          "key": "d",
+          "text": "우선순위 및 심각도"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "a) 정답이 아닙니다. 기대 결과는 “애플리케이션은 제공된 입력값을 받아서 사용자를 생성한 다” 입니다. 실제 결과는 “”테스트 입력값: $ä”를 입력하면 애플리케이션이 멈춘다” 입니다. b) 정답이 아닙니다. 테스트 케이스와 관련된 요구사항을 지칭하는 참조가 있으며 결함은 거부됐다고 나와있습니다. 또한, 개발자에게 결함 상태는 그렇게 도움이 되진 않습니다. c) 정답입니다. 이상 현상이 발견된 테스트 환경이 무엇인지 모르고 어떤 애플리케이션 (그리고 버전)이 영향을 받는지도 알지 못합니다. d) 정답이 아닙니다. 결함 보고서는 이상 현상의 우선순위가 높고 글로벌로 영향을 미치는 (전부는 아니어도 대다수 테스트 관리자 계정이 영향을 받는) 문제이고 비즈니스 이해 관계자에게 끼치는 영향이 크다고 이야기하고 있습니다.",
+      "learningObjective": "FL-5.5.1",
+      "kLevel": "K3",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 19
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '결함 보고서'을 실제 상황에 적용해 계산하거나 판단하는 문제입니다. 먼저 조건을 정리한 뒤, 보기의 주장과 원문 규칙이 맞는지 비교해야 합니다.",
+        "correctReason": "정답은 C입니다. 이상 현상이 발견된 테스트 환경이 무엇인지 모르고 어떤 애플리케이션 (그리고 버전)이 영향을 받는지도 알지 못합니다.",
+        "wrongReasons": {
+          "a": "기대 결과는 “애플리케이션은 제공된 입력값을 받아서 사용자를 생성한 다” 입니다. 실제 결과는 “”테스트 입력값: $ä”를 입력하면 애플리케이션이 멈춘다” 입니다.",
+          "b": "테스트 케이스와 관련된 요구사항을 지칭하는 참조가 있으며 결함은 거부됐다고 나와있습니다. 또한, 개발자에게 결함 상태는 그렇게 도움이 되진 않습니다.",
+          "d": "결함 보고서는 이상 현상의 우선순위가 높고 글로벌로 영향을 미치는 (전부는 아니어도 대다수 테스트 관리자 계정이 영향을 받는) 문제이고 비즈니스 이해 관계자에게 끼치는 영향이 크다고 이야기하고 있습니다."
+        },
+        "beginnerTip": "헷갈리면 '결함 보고서'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '결함 보고서'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "결함 보고서",
+          "재현 정보",
+          "테스트 환경"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-39",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "39",
+      "type": "exam",
+      "question": "다음 중 데이터 준비 도구가 지원하는 테스트 활동은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "테스트 모니터링과 테스트 제어"
+        },
+        {
+          "key": "b",
+          "text": "테스트 분석과 설계"
+        },
+        {
+          "key": "c",
+          "text": "테스트 설계와 테스트 구현"
+        },
+        {
+          "key": "d",
+          "text": "테스트 완료"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "a) 정답이 아닙니다. 테스트 모니터링은 모든 활동과 테스트 계획 대비 실제 진행 상황을 지속적으로 점검하는 것을 포함합니다. 테스트 제어는 테스트 계획의 테스트 목표를 달 성하기 위해 필요한 조치를 취하는 것을 포함합니다. 이러한 활동 동안 테스트 데이터가 만들어지진 않습니다. b) 정답이 아닙니다. 테스트 분석은 테스트 컨디션을 식별하고 그들의 우선순위를 판단하기 위해 테스트 베이시스를 분석하는 것을 포함합니다. 테스트 설계는 테스트 컨디션을 테스트 케이스와 기타 테스트웨어로 구체화하는 것을 포함합니다. 이러한 활동 동안 테스트 데이터가 만들어지진 않습니다. c) 정답입니다. 테스트 구현은 테스트 실행에 필요한 테스트웨어를(예를 들어, 테스트 데이터를) 만들거나 획득하는 것을 포함합니다. d) 정답이 아닙니다. 테스트 완료 활동은 프로젝트 마일스톤(예를 들어, 릴리스 후, 반복 주기 끝, 테스트 레벨 완료) 때 수행하기 때문에 테스트 데이터를 준비하기에 너무 늦습니다.",
+      "learningObjective": "FL-6.1.1",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 20
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '테스트 도구 지원'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 C입니다. 테스트 구현은 테스트 실행에 필요한 테스트웨어를(예를 들어, 테스트 데이터를) 만들거나 획득하는 것을 포함합니다.",
+        "wrongReasons": {
+          "a": "테스트 모니터링은 모든 활동과 테스트 계획 대비 실제 진행 상황을 지속적으로 점검하는 것을 포함합니다. 테스트 제어는 테스트 계획의 테스트 목표를 달 성하기 위해 필요한 조치를 취하는 것을 포함합니다. 이러한 활동 동안 테스트 데이터가 만들어지진 않습니다.",
+          "b": "테스트 분석은 테스트 컨디션을 식별하고 그들의 우선순위를 판단하기 위해 테스트 베이시스를 분석하는 것을 포함합니다. 테스트 설계는 테스트 컨디션을 테스트 케이스와 기타 테스트웨어로 구체화하는 것을 포함합니다. 이러한 활동 동안 테스트 데이터가 만들어지진 않습니다.",
+          "d": "테스트 완료 활동은 프로젝트 마일스톤(예를 들어, 릴리스 후, 반복 주기 끝, 테스트 레벨 완료) 때 수행하기 때문에 테스트 데이터를 준비하기에 너무 늦습니다."
+        },
+        "beginnerTip": "헷갈리면 '테스트 도구'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '테스트 도구 지원'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "테스트 도구",
+          "데이터 준비",
+          "테스트 구현"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-40",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "40",
+      "type": "exam",
+      "question": "다음 중 테스트 자동화 수행에 따른 잠재적 리스크를 올바르게 식별한 항목은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "운용 과정에서 알 수 없는 리그레션이 발생할 수 있다"
+        },
+        {
+          "key": "b",
+          "text": "테스트웨어를 유지하기 위한 충분한 노력이 할당되지 않을 수 있다"
+        },
+        {
+          "key": "c",
+          "text": "테스트 도구 및 관련 테스트웨어를 충분히 신뢰할 수 없다"
+        },
+        {
+          "key": "d",
+          "text": "수동 테스팅에 할당된 시간이 줄어들 수 있다"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "a) 정답이 아닙니다. 테스트 자동화로 운영 환경에 새로운 리그레션이 생기지 않습니다. b) 정답입니다. 테스트웨어 유지를 위한 공수를 잘못 할당하는 것은 리스크입니다. c) 정답이 아닙니다. 테스트 도구는 그것과 그것의 테스트웨어를 신뢰할 수 있게 선택해야 합니다. d) 정답이 아닙니다. 테스트 자동화의 주된 목적은 수동 테스팅을 줄이는 것입니다. 그래서 이것은 이점이지 리스크가 아닙니다.",
+      "learningObjective": "FL-6.2.1",
+      "kLevel": "K1",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 20
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '테스트 자동화의 이점과 리스크'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 B입니다. 테스트웨어 유지를 위한 공수를 잘못 할당하는 것은 리스크입니다.",
+        "wrongReasons": {
+          "a": "테스트 자동화로 운영 환경에 새로운 리그레션이 생기지 않습니다.",
+          "c": "테스트 도구는 그것과 그것의 테스트웨어를 신뢰할 수 있게 선택해야 합니다.",
+          "d": "테스트 자동화의 주된 목적은 수동 테스팅을 줄이는 것입니다. 그래서 이것은 이점이지 리스크가 아닙니다."
+        },
+        "beginnerTip": "헷갈리면 '테스트 자동화'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "테스트 자동화는 반복성과 효율성을 높이지만, 자동화 테스트웨어 유지보수 비용과 도구 호환성 리스크를 함께 봐야 합니다.",
+        "terms": [
+          "테스트 자동화",
+          "테스트웨어 유지보수",
+          "자동화 리스크"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a1",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A1",
+      "type": "additional",
+      "question": "출시할 새로운 시스템의 장애 원인을 분석하고 수정하는 작업이 주어졌다. 다음 중 어떤 활동을 하고 있는 것인가?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "디버깅"
+        },
+        {
+          "key": "b",
+          "text": "소프트웨어 테스팅"
+        },
+        {
+          "key": "c",
+          "text": "요구사항 도출"
+        },
+        {
+          "key": "d",
+          "text": "결함 관리"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "a) 정답입니다. 디버깅은 컴포넌트나 시스템에 있는 장애의 원인을 찾고, 분석하고, 제거하는 과정입니다. b) 정답이 아닙니다. 테스팅은 컴포넌트나 시스템과 관련 작업 산출물이 명시된 요구사항을 충족하고 목적에 적합한지 판단하고, 결함을 감지하기 위해 계획, 준비, 평가하는 과정 입니다. 장애 원인을 수정하는 것과는 무관합니다. c) 정답이 아닙니다. 요구사항 도출은 가용한 출처에서 요구사항을 수집, 포착, 통합하는 과정입니다. 장애 원인을 수정하는 것과는 무관합니다. d) 정답이 아닙니다. 결함 관리는 결함을 인지, 기록, 분류, 조사, 해결, 처리하는 과정입니다. 장애 원인을 수정하는 것과는 무관합니다.",
+      "learningObjective": "FL-1.1.2",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 21
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '테스팅과 디버깅의 차이'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 A입니다. 디버깅은 컴포넌트나 시스템에 있는 장애의 원인을 찾고, 분석하고, 제거하는 과정입니다.",
+        "wrongReasons": {
+          "b": "테스팅은 컴포넌트나 시스템과 관련 작업 산출물이 명시된 요구사항을 충족하고 목적에 적합한지 판단하고, 결함을 감지하기 위해 계획, 준비, 평가하는 과정 입니다. 장애 원인을 수정하는 것과는 무관합니다.",
+          "c": "요구사항 도출은 가용한 출처에서 요구사항을 수집, 포착, 통합하는 과정입니다. 장애 원인을 수정하는 것과는 무관합니다.",
+          "d": "결함 관리는 결함을 인지, 기록, 분류, 조사, 해결, 처리하는 과정입니다. 장애 원인을 수정하는 것과는 무관합니다."
+        },
+        "beginnerTip": "헷갈리면 '디버깅'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '테스팅과 디버깅의 차이'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "디버깅",
+          "장애 원인",
+          "결함 제거"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a2",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A2",
+      "type": "additional",
+      "question": "많은 소프트웨어 조직에서 테스트 부서를 품질 보증(QA) 부서라고 한다. 위 문장이 맞는지 틀리는지, 그리고 이유는 무엇인지를 바르게 설명한 것은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "맞다. 테스팅과 QA는 정확히 같은 의미이다"
+        },
+        {
+          "key": "b",
+          "text": "맞다. 테스팅과 QA 모두 동일한 품질 문제를 대처하는 활동에 집중하기 때문에 서로 바꿔서 사용할 수 있다"
+        },
+        {
+          "key": "c",
+          "text": "틀리다. 테스팅은 품질과 관련된 모든 활동을 포함하지만, QA는 품질 관련 프로세스에 중점을 두기 때문에 테스팅이 더 큰 개념이다"
+        },
+        {
+          "key": "d",
+          "text": "틀리다. QA는 품질 관련 프로세스에 중점을 두는 반면, 테스팅은 컴포넌트나 시스템이 목적에 적합한지 확인하고 결함을 식별하는 데 중점을 둔다"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "다음을 근거로:\n테스팅과 품질 보증은 같지 않습니다. 테스팅은 컴포넌트나 시스템과 관련 작업 산출물이 명시된 요구사항을 충족하고 목적에 적합한지 확인하고, 결함을 감지하기 위해 계획, 준비, 평가하는 모든 정적 및 동적 SDLC 활동으로 구성된 프로세스입니다. 품질 보증은 품질 관련 프로세스의 수립, 도입, 모니터링, 개선, 준수에 중점을 둡니다. 따라서:\na) 정답이 아닙니다. b) 정답이 아닙니다. c) 정답이 아닙니다. d) 정답입니다.",
+      "learningObjective": "FL-1.2.2",
+      "kLevel": "K1",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 21
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '테스팅과 품질 보증(QA)의 차이'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 D입니다. ",
+        "wrongReasons": {
+          "a": " 이 보기는 '테스팅과 품질 보증(QA)의 차이'의 핵심 조건과 맞지 않습니다.",
+          "b": " 이 보기는 '테스팅과 품질 보증(QA)의 차이'의 핵심 조건과 맞지 않습니다.",
+          "c": " 이 보기는 '테스팅과 품질 보증(QA)의 차이'의 핵심 조건과 맞지 않습니다."
+        },
+        "beginnerTip": "헷갈리면 'QA'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '테스팅과 품질 보증(QA)의 차이'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "QA",
+          "QC",
+          "테스팅"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a3",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A3",
+      "type": "additional",
+      "question": "옆자리에서 울린 전화가 프로그래머의 주의를 분산시켜 입력 변수의 상한을 확인하는 논리를 잘못 프로그래밍하게 했다. 나중에 시스템 테스팅에서 테스터가 이 입력 필드가 유효하지 않은 입력 값을 허용한다는 것을 알아냈다. 다음 중 잘못 코딩 된 상한선을 올바르게 설명한 것은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "근본 원인(The root cause)"
+        },
+        {
+          "key": "b",
+          "text": "장애(A failure)"
+        },
+        {
+          "key": "c",
+          "text": "오류(An error)"
+        },
+        {
+          "key": "d",
+          "text": "결함(A defect)"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "a) 정답이 아닙니다. 근본 원인은 프로그래밍 중 프로그래머의 주의가 분산됐다는 점입니다. b) 정답이 아닙니다. 유효하지 않은 입력값을 허용하는 것은 장애입니다. c) 정답이 아닙니다. 코드에 결함을 유발하게 만든 사고의 오류입니다. d) 정답입니다. 코드의 문제는 결함입니다.",
+      "learningObjective": "FL-1.2.3",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 21
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '오류, 결함, 장애, 근본 원인'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 D입니다. 코드의 문제는 결함입니다.",
+        "wrongReasons": {
+          "a": "근본 원인은 프로그래밍 중 프로그래머의 주의가 분산됐다는 점입니다.",
+          "b": "유효하지 않은 입력값을 허용하는 것은 장애입니다.",
+          "c": "코드에 결함을 유발하게 만든 사고의 오류입니다."
+        },
+        "beginnerTip": "헷갈리면 '오류'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '오류, 결함, 장애, 근본 원인'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "오류",
+          "결함",
+          "장애",
+          "근본 원인"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a4",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A4",
+      "type": "additional",
+      "question": "다음 테스트웨어를 작성하는 테스트 활동은?\n테스트 차터 #04.018 세션 시간: 1시간 대상(Explore):\n등록 페이지 도구(With):\n잘못된 값을 가진 여러 입력 데이터 세트 목적(To discover):\n등록 과정에서 잘못된 입력값을 허용하는 것과 관련된 결함 식별",
+      "choices": [
+        {
+          "key": "a",
+          "text": "테스트 계획"
+        },
+        {
+          "key": "b",
+          "text": "테스트 모니터링과 테스트 제어"
+        },
+        {
+          "key": "c",
+          "text": "테스트 분석"
+        },
+        {
+          "key": "d",
+          "text": "테스트 설계"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "고려 중인 테스트웨어는 테스트 차터입니다. 테스트 차터는 테스트 설계의 결과물입니다. 따라서:\na) 정답이 아닙니다. b) 정답이 아닙니다. c) 정답이 아닙니다. d) 정답입니다.",
+      "learningObjective": "FL-1.4.3",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 22
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '테스트 활동별 산출물'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 D입니다. ",
+        "wrongReasons": {
+          "a": " 이 보기는 '테스트 활동별 산출물'의 핵심 조건과 맞지 않습니다.",
+          "b": " 이 보기는 '테스트 활동별 산출물'의 핵심 조건과 맞지 않습니다.",
+          "c": " 이 보기는 '테스트 활동별 산출물'의 핵심 조건과 맞지 않습니다."
+        },
+        "beginnerTip": "ISTQB 문제는 활동 이름이 비슷하게 나오므로, 산출물이 무엇인지와 누가 수행하는지를 함께 보면 구분하기 쉽습니다.",
+        "keyPoint": "테스트 분석은 '무엇을 테스트할지', 테스트 설계는 '어떻게 테스트 케이스로 만들지', 테스트 구현은 '실행 가능하게 준비하는 것'에 가깝습니다.",
+        "terms": [
+          "테스트웨어",
+          "테스트 차터",
+          "테스트 절차"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a5",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A5",
+      "type": "additional",
+      "question": "다음 중 추적성이 테스팅을 어떻게 지원하는지 보여주는 가장 좋은 예제는?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "변경의 영향도를 분석함으로써 테스트 완료에 대한 정보를 얻을 수 있다"
+        },
+        {
+          "key": "b",
+          "text": "테스트 케이스와 테스트 결과 간의 추적성을 분석함으로써 잔존 리스크 수준을 추정 하는 데 필요한 정보를 얻을 수 있다"
+        },
+        {
+          "key": "c",
+          "text": "변경의 영향도 분석을 실행하는 것은 리그레션 테스팅에 적절한 테스트 케이스 선택에 도움이 된다"
+        },
+        {
+          "key": "d",
+          "text": "테스트 베이시스, 테스트 대상 및 테스트 케이스 간의 추적성을 분석하는 것은 테스트 대상의 가정된 커버리지를 달성하기 위한 테스트 데이터 선택에 도움이 된다"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "a) 정답이 아닙니다. 영향도 분석을 해도 테스트 완료 정도에 대한 정보는 얻지 못합니다. 변경의 영향도 분석 결과는 실행할 적합한 테스트 케이스를 선택하는 데 도움이 됩니다. b) 정답이 아닙니다. 추적성으로 예상 잔존 리스크 수준을 알고 싶다면 테스트 케이스에서 리스크까지 거슬러 올라가야 합니다. c) 정답입니다. 변경에 대한 영향도 분석은 리그레션 테스트를 위한 테스트 케이스를 고르는 데 도움이 됩니다. d) 정답이 아닙니다. 테스트 베이시스, 테스트 대상, 테스트 케이스 간의 추적성을 분석하는 것은 테스트 대상에 대해 정해진 커버리지를 달성하기 위한 테스트 데이터 선택에 도움이 되지 않습니다. 테스트 데이터를 선택하는 것은 추적성보다 테스트 분석이나 테스트 구현과 더 관련이 있습니다.",
+      "learningObjective": "FL-1.4.4",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 22
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '추적성의 활용'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 C입니다. 변경에 대한 영향도 분석은 리그레션 테스트를 위한 테스트 케이스를 고르는 데 도움이 됩니다.",
+        "wrongReasons": {
+          "a": "영향도 분석을 해도 테스트 완료 정도에 대한 정보는 얻지 못합니다. 변경의 영향도 분석 결과는 실행할 적합한 테스트 케이스를 선택하는 데 도움이 됩니다.",
+          "b": "추적성으로 예상 잔존 리스크 수준을 알고 싶다면 테스트 케이스에서 리스크까지 거슬러 올라가야 합니다.",
+          "d": "테스트 베이시스, 테스트 대상, 테스트 케이스 간의 추적성을 분석하는 것은 테스트 대상에 대해 정해진 커버리지를 달성하기 위한 테스트 데이터 선택에 도움이 되지 않습니다. 테스트 데이터를 선택하는 것은 추적성보다 테스트 분석이나 테스트 구현과 더 관련이 있습니다."
+        },
+        "beginnerTip": "ISTQB 문제는 활동 이름이 비슷하게 나오므로, 산출물이 무엇인지와 누가 수행하는지를 함께 보면 구분하기 쉽습니다.",
+        "keyPoint": "테스트 분석은 '무엇을 테스트할지', 테스트 설계는 '어떻게 테스트 케이스로 만들지', 테스트 구현은 '실행 가능하게 준비하는 것'에 가깝습니다.",
+        "terms": [
+          "추적성",
+          "영향도 분석",
+          "리그레션 테스팅"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a6",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A6",
+      "type": "additional",
+      "question": "다음 중 테스팅 독립성의 이점을 가장 잘 설명한 것은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "독립적인 테스트팀이 있으면, 결과물의 품질에 대한 책임을 테스트팀이 지도록 할 수 있다"
+        },
+        {
+          "key": "b",
+          "text": "조직 외부의 테스트팀을 활용할 수 있다면, 이 외부 팀이 프로젝트 관리의 납품이나 납품 마감 준수 압박에 쉽게 휘둘리지 않는다는 면에서 뚜렷한 이점이 생긴다"
+        },
+        {
+          "key": "c",
+          "text": "독립적인 테스트팀은 개발자와 독립적으로 일할 수 있고, 프로젝트 요구사항 변경으로 인해 주의가 산만해지지 않으며, 개발자와의 소통을 결함 관리 시스템을 통한 결함 보고로 제한할 수 있다"
+        },
+        {
+          "key": "d",
+          "text": "명세가 모호하거나 불일치하는 부분이 있으면, 그것을 해석할 때 일부 사항을 가정하게 되며, 독립적인 테스터는 개발자가 만든 이런 가정과 해석에 의문을 제기하는 데 유용 할 수 있다"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "a) 정답이 아닙니다. 품질은 테스트팀만의 책임이 아닌 프로젝트에 일하는 모두의 책임이 어야 합니다. b) 정답이 아닙니다. 우선 외부 테스트팀이 납품기한을 지키지 못한 것은 이점이 아닙니다. 그리고 외부 테스트팀이 납품기한을 엄수할 필요가 없다고 느낄 것이라 생각할 이유도 없습니다. c) 정답이 아닙니다. 테스트팀이 완전히 고립된 상태에서 일하게 하는 것은 나쁜 관행이며, 외부 테스트팀이 바뀌는 프로젝트 요구사항, 또 개발자와 원활한 의사소통에 관심을 가질 것을 기대할 것입니다. d) 정답입니다. 명세가 완벽한 경우는 없기 때문에 개발자는 일부 사항에 대해 가정을 해야 합니다. 독립적인 테스터는 개발자가 한 이런 가정과 그에 따른 해석에 의문을 제기하고 검증할 수 있다는 점에서 유용합니다.",
+      "learningObjective": "FL-1.5.3",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 23
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '테스팅 독립성'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 D입니다. 명세가 완벽한 경우는 없기 때문에 개발자는 일부 사항에 대해 가정을 해야 합니다. 독립적인 테스터는 개발자가 한 이런 가정과 그에 따른 해석에 의문을 제기하고 검증할 수 있다는 점에서 유용합니다.",
+        "wrongReasons": {
+          "a": "품질은 테스트팀만의 책임이 아닌 프로젝트에 일하는 모두의 책임이 어야 합니다.",
+          "b": "우선 외부 테스트팀이 납품기한을 지키지 못한 것은 이점이 아닙니다. 그리고 외부 테스트팀이 납품기한을 엄수할 필요가 없다고 느낄 것이라 생각할 이유도 없습니다.",
+          "c": "테스트팀이 완전히 고립된 상태에서 일하게 하는 것은 나쁜 관행이며, 외부 테스트팀이 바뀌는 프로젝트 요구사항, 또 개발자와 원활한 의사소통에 관심을 가질 것을 기대할 것입니다."
+        },
+        "beginnerTip": "헷갈리면 '독립성'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '테스팅 독립성'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "독립성",
+          "편향",
+          "가정 검토"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a7",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A7",
+      "type": "additional",
+      "question": "당신은 V 모델을 따르는 팀에서 테스터로 일하고 있다. 다음 중 어떤 활동을 소프트웨어 개발 수명주기 초기 단계에서 수행할 수 있는가? (2개 선택)",
+      "choices": [
+        {
+          "key": "a",
+          "text": "동적 테스트 수행"
+        },
+        {
+          "key": "b",
+          "text": "정적 테스팅"
+        },
+        {
+          "key": "c",
+          "text": "테스트 계획"
+        },
+        {
+          "key": "d",
+          "text": "인수 테스트 수행"
+        },
+        {
+          "key": "e",
+          "text": "유지보수 테스팅"
+        }
+      ],
+      "answer": [
+        "b",
+        "c"
+      ],
+      "explanation": "a) 정답이 아닙니다. 실행 가능한 코드는 일반적으로 후반 단계에서 생성되므로 소프트웨 어 개발 수명주기 초기에 동적 테스트를 수행할 수 없습니다. b) 정답입니다. 순차적 개발 모델에서 테스터는 초기 단계에서 정적 테스팅의 한 형태인 요 구사항 리뷰에 참여합니다. c) 정답입니다. 테스트 분석 및 테스트 설계와 함께 테스트 프로젝트가 시작되기 전에 소프 트웨어 개발 수명주기 초기에 태스트 계획을 수행할 수 있습니다. d) 정답이 아닙니다. 인수 테스트 수행은 동작하는 제품이 있을 때 수행할 수 있습니다. 순 차적 개발 수명주기 모델에서 동작하는 제품은 일반적으로 후반에 제공됩니다. e) 정답이 아닙니다. 유지보수 테스팅은 동작하고 배포된 제품이 있을 때 수행되고, 어떤 소프트웨어 개발 수명주기 모델이든 초기 단계에서 수행되지 않습니다.",
+      "learningObjective": "FL-2.1.1",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 23
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "복수정답 문항입니다. 이 문제는 '소프트웨어 개발 수명주기 모델'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 B, C입니다. 순차적 개발 모델에서 테스터는 초기 단계에서 정적 테스팅의 한 형태인 요 구사항 리뷰에 참여합니다. 테스트 분석 및 테스트 설계와 함께 테스트 프로젝트가 시작되기 전에 소프 트웨어 개발 수명주기 초기에 태스트 계획을 수행할 수 있습니다.",
+        "wrongReasons": {
+          "a": "실행 가능한 코드는 일반적으로 후반 단계에서 생성되므로 소프트웨 어 개발 수명주기 초기에 동적 테스트를 수행할 수 없습니다.",
+          "d": "인수 테스트 수행은 동작하는 제품이 있을 때 수행할 수 있습니다. 순 차적 개발 수명주기 모델에서 동작하는 제품은 일반적으로 후반에 제공됩니다.",
+          "e": "유지보수 테스팅은 동작하고 배포된 제품이 있을 때 수행되고, 어떤 소프트웨어 개발 수명주기 모델이든 초기 단계에서 수행되지 않습니다."
+        },
+        "beginnerTip": "문제에서 두 가지 또는 복수 선택을 요구하면, 맞는 보기 하나를 찾고 끝내지 말고 나머지 보기까지 같은 기준으로 검토해야 합니다.",
+        "keyPoint": "핵심은 '소프트웨어 개발 수명주기 모델'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "V 모델",
+          "정적 테스팅",
+          "테스트 계획"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a8",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A8",
+      "type": "additional",
+      "question": "다음 중 데브옵스(DevOps)의 장점은?\ni. 빠른 제품 출시 및 짧은 출시 기간 ii. 반복적인 수동 테스팅의 필요성 증가 iii. 실행 가능한 소프트웨어의 지속적인 가용성 iv. 코드 리팩토링과 관련된 리그레션 테스트 수 감소 v. 모든 것이 자동화되어 있으므로 테스트 자동화 프레임워크를 설정하는 비용이 저렴하다",
+      "choices": [
+        {
+          "key": "a",
+          "text": "i, ii, iv"
+        },
+        {
+          "key": "b",
+          "text": "iii, v"
+        },
+        {
+          "key": "c",
+          "text": "i, iii"
+        },
+        {
+          "key": "d",
+          "text": "ii, iv, v"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "다음을 근거로:\ni. 참입니다. 빠른 제품 출시와 시장 진입은 데브옵스의 장점입니다. ii. 거짓입니다. 보통 테스트 자동화의 사용으로 수동 테스트에 필요한 노력이 줄어듭니다. iii. 참입니다. 실행 가능한 소프트웨어의 지속적인 가용성은 장점입니다. iv. 거짓입니다. 더 많은 리그레션 테스트가 필요합니다. v. 거짓입니다. 모든 것을 자동화하지 않으며 테스트 자동화 프레임워크를 구축하는 비용은 비쌉니다. 따라서:\na) 정답이 아닙니다. b) 정답이 아닙니다. c) 정답입니다. d) 정답이 아닙니다.",
+      "learningObjective": "FL-2.1.4",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 24
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '데브옵스와 테스팅'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 C입니다. ",
+        "wrongReasons": {
+          "a": " 이 보기는 '데브옵스와 테스팅'의 핵심 조건과 맞지 않습니다.",
+          "b": " 이 보기는 '데브옵스와 테스팅'의 핵심 조건과 맞지 않습니다.",
+          "d": " 이 보기는 '데브옵스와 테스팅'의 핵심 조건과 맞지 않습니다."
+        },
+        "beginnerTip": "헷갈리면 'DevOps'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '데브옵스와 테스팅'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "DevOps",
+          "CI/CD",
+          "테스트 자동화"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a9",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A9",
+      "type": "additional",
+      "question": "당신은 사용자가 음식을 주문하는 모바일 애플리케이션 프로젝트에서 테스터로 일하고 있다. 고객이 요구사항 목록을 보냈고, 그 중 우선순위가 높은 하나가 다음과 같다.\n“전체 주문의 95% 이상은 10초 이내에 처리되어야 한다.” 당신은 무작위로 주문이 이루어지고, 처리 시간이 측정되며, 테스트 결과가 요구사항과 비교되도록 일련의 테스트 케이스를 만들었다. 다음 중 수행한 테스트 유형은 무엇인가?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "테스트 케이스가 시스템에 대한 사용자의 비즈니스 요구사항을 다루기 때문에 기능 테스트이다"
+        },
+        {
+          "key": "b",
+          "text": "시스템 성능을 측정하기 때문에 비기능 테스트이다"
+        },
+        {
+          "key": "c",
+          "text": "테스트 케이스가 사용자 인터페이스와 상호작용하기 때문에 기능 테스트이다"
+        },
+        {
+          "key": "d",
+          "text": "주문 처리 시간을 측정하기 위해서는 프로그램의 내부 구조를 알아야 하기 때문에 화 이트박스 테스트이다"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "a) 정답이 아닙니다. 시스템 성능 요구사항이 고객으로부터 직접 왔고 비즈니스 관점에서 성능이 중요하다는(즉, 우선순위가 높다는) 사실이 이 테스트를 기능 테스트로 만들진 않습니다. 테스트는 시스템이 “무엇을” 하는지 확인하는 것이 아니라, “어떻게” 하는지 (즉, 얼마나 빨리 주문을 처리하는지) 확인하기 때문입니다. b) 정답입니다. 이것은 비기능 테스팅의 한 유형인 성능 유효성 테스팅의 예시입니다. c) 정답이 아닙니다. 시나리오에서 사용자 인터페이스와의 상호작용이 테스트 컨디션의 일부인지 알 수 없습니다. 알 수 있었다 하더라도 이 테스트의 주된 목적은 성능을 확인하는 것이지, 유용성을 확인하는 것이 아닙니다. d) 정답이 아닙니다. 성능 유효성 테스팅을 수행하기 위해 코드의 내부 구조를 알 필요는 없 습니다. 구조에 대한 지식 없이도 수행 효율성 테스트를 할 수 있습니다.",
+      "learningObjective": "FL-2.2.2",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 24
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '테스트 유형'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 B입니다. 이것은 비기능 테스팅의 한 유형인 성능 유효성 테스팅의 예시입니다.",
+        "wrongReasons": {
+          "a": "시스템 성능 요구사항이 고객으로부터 직접 왔고 비즈니스 관점에서 성능이 중요하다는(즉, 우선순위가 높다는) 사실이 이 테스트를 기능 테스트로 만들진 않습니다. 테스트는 시스템이 “무엇을” 하는지 확인하는 것이 아니라, “어떻게” 하는지 (즉, 얼마나 빨리 주문을 처리하는지) 확인하기 때문입니다.",
+          "c": "시나리오에서 사용자 인터페이스와의 상호작용이 테스트 컨디션의 일부인지 알 수 없습니다. 알 수 있었다 하더라도 이 테스트의 주된 목적은 성능을 확인하는 것이지, 유용성을 확인하는 것이 아닙니다.",
+          "d": "성능 유효성 테스팅을 수행하기 위해 코드의 내부 구조를 알 필요는 없 습니다. 구조에 대한 지식 없이도 수행 효율성 테스트를 할 수 있습니다."
+        },
+        "beginnerTip": "테스트 레벨과 테스트 유형을 구분하세요. 레벨은 언제/어디 범위에서 테스트하는가이고, 유형은 무엇을 확인하는가에 가깝습니다.",
+        "keyPoint": "핵심은 '테스트 유형'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "기능 테스팅",
+          "비기능 테스팅",
+          "성능 테스팅"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a10",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A10",
+      "type": "additional",
+      "question": "조직의 테스트 전략은 시스템을 단종하려면 데이터 마이그레이션 테스트를 수행해야 한다고 명시하고 있다. 이런 테스팅은 어떤 테스트 유형에 포함해서 수행할 가능성이 가장 높은가?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "유지보수 테스팅"
+        },
+        {
+          "key": "b",
+          "text": "리그레션 테스팅"
+        },
+        {
+          "key": "c",
+          "text": "신뢰성 테스팅"
+        },
+        {
+          "key": "d",
+          "text": "통합 테스팅"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "a) 정답입니다. 시스템이 단종되면 유지보수 테스팅의 유형인 데이터 마이그레이션 테스팅이 필요할 수 있습니다. b) 정답이 아닙니다. 리그레션 테스팅은 수정 작업으로 우연히 코드 다른 부분의 행동에 영향을 끼쳤는지 검증하는 것입니다. 지금은 새로운 시스템으로 데이터를 마이그레이션하는 것에 대해 이야기하고 있습니다. c) 정답이 아닙니다. 단위 테스팅은 데이터 마이그레이션이 아닌 개별 하드웨어나 소프트웨어 컴포넌트에 초점을 둡니다. d) 정답이 아닙니다. 통합 테스팅은 데이터 마이그레이션이 아닌 컴포넌트 간, 시스템 간, 또는 컴포넌트와 시스템 간의 상호작용에 초점을 둡니다.",
+      "learningObjective": "FL-2.3.1",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 25
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '유지보수 테스팅'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 A입니다. 시스템이 단종되면 유지보수 테스팅의 유형인 데이터 마이그레이션 테스팅이 필요할 수 있습니다.",
+        "wrongReasons": {
+          "b": "리그레션 테스팅은 수정 작업으로 우연히 코드 다른 부분의 행동에 영향을 끼쳤는지 검증하는 것입니다. 지금은 새로운 시스템으로 데이터를 마이그레이션하는 것에 대해 이야기하고 있습니다.",
+          "c": "단위 테스팅은 데이터 마이그레이션이 아닌 개별 하드웨어나 소프트웨어 컴포넌트에 초점을 둡니다.",
+          "d": "통합 테스팅은 데이터 마이그레이션이 아닌 컴포넌트 간, 시스템 간, 또는 컴포넌트와 시스템 간의 상호작용에 초점을 둡니다."
+        },
+        "beginnerTip": "헷갈리면 '유지보수 테스팅'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '유지보수 테스팅'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "유지보수 테스팅",
+          "데이터 마이그레이션",
+          "시스템 단종"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a11",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A11",
+      "type": "additional",
+      "question": "다음은 개발 수명주기(SDLC) 중 작성한 작업 산출물 목록이다. i. 비즈니스 요구사항 ii. 일정 계획 iii. 테스트 예산 iv. 타사 실행 코드 v. 사용자 스토리 및 인수 조건 다음 중 리뷰가 가능한 작업 산출물은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "i, iv"
+        },
+        {
+          "key": "b",
+          "text": "i, ii, iii, iv"
+        },
+        {
+          "key": "c",
+          "text": "i, ii, iii, v"
+        },
+        {
+          "key": "d",
+          "text": "ii, iv, v"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "제3자 공급사의 실행 가능한 코드만 리뷰할 수 없습니다. 따라서:\na) 정답이 아닙니다. b) 정답이 아닙니다. c) 정답입니다. d) 정답이 아닙니다.",
+      "learningObjective": "FL-3.1.1",
+      "kLevel": "K1",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 25
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '정적 테스팅 대상'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 C입니다. ",
+        "wrongReasons": {
+          "a": " 이 보기는 '정적 테스팅 대상'의 핵심 조건과 맞지 않습니다.",
+          "b": " 이 보기는 '정적 테스팅 대상'의 핵심 조건과 맞지 않습니다.",
+          "d": " 이 보기는 '정적 테스팅 대상'의 핵심 조건과 맞지 않습니다."
+        },
+        "beginnerTip": "헷갈리면 '정적 테스팅'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '정적 테스팅 대상'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "정적 테스팅",
+          "리뷰",
+          "작업 산출물"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a12",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A12",
+      "type": "additional",
+      "question": "다음 중 정적 테스팅에 대한 올바른 설명은?\ni. 비정상 외부 행동을 이 테스팅으로 더 쉽게 식별할 수 있다 ii. 코딩 표준과의 불일치를 이 테스팅으로 더 쉽게 식별할 수 있다 iii. 소프트웨어 실행 시 결함으로 인한 장애를 이 테스팅으로 식별할 수 있다 iv. 이 테스팅의 테스트 목표는 가능한 빨리 결함을 식별하는 것이다 v. 중요 보안 요구사항 중 커버되지 않은 사항을 식별 및 수정하기가 더 쉽다",
+      "choices": [
+        {
+          "key": "a",
+          "text": "i, iv, v"
+        },
+        {
+          "key": "b",
+          "text": "i, iii, iv"
+        },
+        {
+          "key": "c",
+          "text": "ii, iii"
+        },
+        {
+          "key": "d",
+          "text": "ii, iv, v"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "다음을 근거로:\ni. 이러한 행동은 소프트웨어가 실행되고 있을 때 쉽게 감지할 수 있습니다. 따라서, 식별하기 위해 동적 테스팅을 사용해야 합니다. ii. 이것은 일반적으로 정적 테스팅으로 더 쉽게 발견할 수 있는 결함 유형인 표준과의 불일치에 대한 예시입니다. iii. 만약 테스트 도중 소프트웨어가 실행된다면 그것은 동적 테스팅입니다. iv. 가능한 한 조기에 결함을 식별하는 것은 정적/동적 테스팅 모두의 목적입니다. v. 이것은 일반적으로 정적 테스팅으로 더 쉽게 발견할 수 있는 결함 유형인 테스트 베이시스 추적성 혹은 커버리지의 누락에 대한 예시입니다. 따라서:\na) 정답이 아닙니다. b) 정답이 아닙니다. c) 정답이 아닙니다. d) 정답입니다.",
+      "learningObjective": "FL-3.1.3",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 26
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '정적 테스팅으로 찾기 쉬운 결함'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 D입니다. ",
+        "wrongReasons": {
+          "a": " 이 보기는 '정적 테스팅으로 찾기 쉬운 결함'의 핵심 조건과 맞지 않습니다.",
+          "b": " 이 보기는 '정적 테스팅으로 찾기 쉬운 결함'의 핵심 조건과 맞지 않습니다.",
+          "c": " 이 보기는 '정적 테스팅으로 찾기 쉬운 결함'의 핵심 조건과 맞지 않습니다."
+        },
+        "beginnerTip": "헷갈리면 '정적 테스팅'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '정적 테스팅으로 찾기 쉬운 결함'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "정적 테스팅",
+          "코딩 표준",
+          "커버리지 누락"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a13",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A13",
+      "type": "additional",
+      "question": "다음 중 공식 리뷰에 대한 다음 설명으로 올바른 것은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "일부 리뷰는 하나 이상의 역할이 필요하지 않다"
+        },
+        {
+          "key": "b",
+          "text": "리뷰 과정에 여러 활동이 포함된다"
+        },
+        {
+          "key": "c",
+          "text": "일부 특정 리뷰 유형의 작업 산출물을 제외하고는, 리뷰 회의 전에 리뷰할 문서를 배포하지 않는다"
+        },
+        {
+          "key": "d",
+          "text": "동적 테스팅으로 식별한 사항이 아니기 때문에 리뷰 중 발견한 결함은 보고하지 않는다"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "a) 정답이 아닙니다. 비공식 리뷰까지 포함한 모든 유형의 리뷰에 둘 이상의 역할이 있습니다. b) 정답입니다. 공식 리뷰 프로세스 중 여러 활동이 있습니다. c) 정답이 아닙니다. 리뷰할 문서는 가능한 한 빨리 배포해야 합니다. d) 정답이 아닙니다. 리뷰 중 발견한 결함은 보고해야 합니다.",
+      "learningObjective": "FL-3.2.2",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 26
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '리뷰 프로세스 활동'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 B입니다. 공식 리뷰 프로세스 중 여러 활동이 있습니다.",
+        "wrongReasons": {
+          "a": "비공식 리뷰까지 포함한 모든 유형의 리뷰에 둘 이상의 역할이 있습니다.",
+          "c": "리뷰할 문서는 가능한 한 빨리 배포해야 합니다.",
+          "d": "리뷰 중 발견한 결함은 보고해야 합니다."
+        },
+        "beginnerTip": "ISTQB 문제는 활동 이름이 비슷하게 나오므로, 산출물이 무엇인지와 누가 수행하는지를 함께 보면 구분하기 쉽습니다.",
+        "keyPoint": "리뷰 문제는 리뷰 유형, 리뷰 활동 순서, 리뷰 역할의 책임을 분리해서 외우면 안정적으로 풀 수 있습니다.",
+        "terms": [
+          "리뷰 계획",
+          "리뷰 착수",
+          "개별 리뷰",
+          "의사소통 및 분석"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a14",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A14",
+      "type": "additional",
+      "question": "다음 중 공식 리뷰에서 관리자가 수행할 수 있는 작업은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "리뷰에 대한 전반적인 책임을 진다"
+        },
+        {
+          "key": "b",
+          "text": "리뷰 대상을 결정한다"
+        },
+        {
+          "key": "c",
+          "text": "리뷰 회의의 효과적인 진행을 보장하고, 필요한 경우 중재한다"
+        },
+        {
+          "key": "d",
+          "text": "리뷰에서 나온 결정 사항과 같은 리뷰 정보를 기록한다"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "a) 정답이 아닙니다. 이것은 리뷰 리더의 일입니다. b) 정답입니다. 이것은 공식 리뷰에서 관리자가 할 일입니다. c) 정답이 아닙니다. 이것은 중재자의 일입니다. d) 정답이 아닙니다. 이것은 서기의 일입니다.",
+      "learningObjective": "FL-3.2.3",
+      "kLevel": "K1",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 26
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '리뷰 역할'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 B입니다. 이것은 공식 리뷰에서 관리자가 할 일입니다.",
+        "wrongReasons": {
+          "a": "이것은 리뷰 리더의 일입니다. 이 보기는 '리뷰 역할'의 핵심 조건과 맞지 않습니다.",
+          "c": "이것은 중재자의 일입니다. 이 보기는 '리뷰 역할'의 핵심 조건과 맞지 않습니다.",
+          "d": "이것은 서기의 일입니다. 이 보기는 '리뷰 역할'의 핵심 조건과 맞지 않습니다."
+        },
+        "beginnerTip": "ISTQB 문제는 활동 이름이 비슷하게 나오므로, 산출물이 무엇인지와 누가 수행하는지를 함께 보면 구분하기 쉽습니다.",
+        "keyPoint": "리뷰 문제는 리뷰 유형, 리뷰 활동 순서, 리뷰 역할의 책임을 분리해서 외우면 안정적으로 풀 수 있습니다.",
+        "terms": [
+          "관리자",
+          "리뷰 리더",
+          "중재자",
+          "서기"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a15",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A15",
+      "type": "additional",
+      "question": "와인 저장 시스템은 와인 보관소의 온도 T(°C 단위로 측정, 가장 가까운 정수로 반올림) 를 측정하고, 최적 온도인 12에서 벗어난 경우 다음 규칙에 따라 사용자에게 알림을 주는 제어 장치를 사용하고 있다. •\nT = 12면, “최적 온도”라고 표시한다 •\nT <12면, “온도가 너무 낮습니다!”라고 표시한다 •\nT> 12면, “온도가 너무 높습니다!”라고 표시한다 3개 선택(3-value) 경계값 분석(BVA)으로 제어 장치의 동작을 확인하려고 한다. 테스트 입력값은 장치에서 제공하는 온도(°C)이다. 100% 커버리지를 달성하는 최소 테스트 입력값 세트는?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "11, 12, 13"
+        },
+        {
+          "key": "b",
+          "text": "10, 12, 14"
+        },
+        {
+          "key": "c",
+          "text": "10, 11, 12, 13, 14"
+        },
+        {
+          "key": "d",
+          "text": "10, 11, 13, 14"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "여기에는 3개의 동등 분할이 있습니다: {..., 10, 11}, {12}, {13, 14, ...}. 경계값은 11, 12, 13입니다. 각 경계마다 3가지 값(3-value) 경계값 분석을 적용하면 경계와 양쪽으로 이웃한 값을 테스트해야 합니다. 따라서:\n• 11에 대해선 10, 11, 12를 테스트하고 • 12에 대해선 11, 12, 13을 테스트하고 • 13에 대해선 12, 13, 14를 테스트합니다. 결국 10, 11, 12 ,13, 14를 테스트해야 합니다. 따라서:\na) 정답이 아닙니다. b) 정답이 아닙니다. c) 정답입니다. d) 정답이 아닙니다.",
+      "learningObjective": "FL-4.2.2",
+      "kLevel": "K3",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 27
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '경계값 분석'을 실제 상황에 적용해 계산하거나 판단하는 문제입니다. 먼저 조건을 정리한 뒤, 보기의 주장과 원문 규칙이 맞는지 비교해야 합니다.",
+        "correctReason": "정답은 C입니다. ",
+        "wrongReasons": {
+          "a": " 이 보기는 '경계값 분석'의 핵심 조건과 맞지 않습니다.",
+          "b": " 이 보기는 '경계값 분석'의 핵심 조건과 맞지 않습니다.",
+          "d": " 이 보기는 '경계값 분석'의 핵심 조건과 맞지 않습니다."
+        },
+        "beginnerTip": "계산형·표 해석형 문제는 보기부터 고르지 말고, 원문 조건을 작은 단위로 나누어 표나 순서로 먼저 정리하면 실수를 줄일 수 있습니다.",
+        "keyPoint": "경계값 분석 문제는 감으로 고르지 말고, 조건·분할·경계·규칙·전이를 먼저 세어야 합니다.",
+        "terms": [
+          "BVA",
+          "2-value",
+          "3-value",
+          "경계값"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a16",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A16",
+      "type": "additional",
+      "question": "다음 중 분기 테스팅에 대한 설명으로 올바른 것은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "프로그램이 무조건 분기만 포함하는 경우, 테스트 케이스를 실행하지 않고도 100% 분기 커버리지를 달성할 수 있다"
+        },
+        {
+          "key": "b",
+          "text": "테스트 케이스가 코드의 모든 무조건 분기를 실행하면, 100% 분기 커버리지가 달성 된다"
+        },
+        {
+          "key": "c",
+          "text": "100% 구문 커버리지를 달성하면, 분기 커버리지도 100%이다"
+        },
+        {
+          "key": "d",
+          "text": "100% 분기 커버리지를 달성하면, 코드 모든 결정문의 모든 결정 결과가 실행된다"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "a) 정답이 아닙니다. 이 경우에 아직 커버해야 하는(무조건) 분기가 적어도 하나는 있기 때문에 최소 하나의 테스트 케이스가 추가로 필요합니다. b) 정답이 아닙니다. 무조건 분기를 다 커버했다고 모든 조건 분기까지 커버됐다는 의미는 아닙니다. c) 정답이 아닙니다. 100% 분기 커버리지는 100% 구문 커버리지를 의미하지만, 그 반대는 아닙니다. 예를 들어서, ELSE가 없는 IF 결정문에서 하나의 테스트로 100% 구문 커버 리지를 달성할 수 있지만, 분기 커버리지는 50%만 달성됩니다. d) 정답입니다. 각 결정 결과는 하나의 조건 분기에 상응하기 때문에 100% 분기 커버리지는 결정 결과에 대해서도 100% 커버리지를 달성한 것이 됩니다.",
+      "learningObjective": "FL-4.3.2",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 27
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '분기 커버리지'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 D입니다. 각 결정 결과는 하나의 조건 분기에 상응하기 때문에 100% 분기 커버리지는 결정 결과에 대해서도 100% 커버리지를 달성한 것이 됩니다.",
+        "wrongReasons": {
+          "a": "이 경우에 아직 커버해야 하는(무조건) 분기가 적어도 하나는 있기 때문에 최소 하나의 테스트 케이스가 추가로 필요합니다.",
+          "b": "무조건 분기를 다 커버했다고 모든 조건 분기까지 커버됐다는 의미는 아닙니다.",
+          "c": "100% 분기 커버리지는 100% 구문 커버리지를 의미하지만, 그 반대는 아닙니다. 예를 들어서, ELSE가 없는 IF 결정문에서 하나의 테스트로 100% 구문 커버 리지를 달성할 수 있지만, 분기 커버리지는 50%만 달성됩니다."
+        },
+        "beginnerTip": "헷갈리면 '분기 커버리지'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '분기 커버리지'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "분기 커버리지",
+          "결정 결과",
+          "화이트박스"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a17",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A17",
+      "type": "additional",
+      "question": "당신은 고객이 은행 계좌에 접근하고 관리할 수 있는 모바일 애플리케이션을 테스트하고 있다. 이 앱의 사용성을 최대로 높이기 위한 사용자 인터페이스(UI) 모범 사례를 담은 유명한 책을 참고해, 각 화면과 이들 화면의 모든 입력 항목을 평가하는 테스트 스위트를 실행하고 있다. 다음 중 이와 같은 테스트 기법에 대한 분류로 가장 적합한 것은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "블랙박스(Black-box)"
+        },
+        {
+          "key": "b",
+          "text": "탐색적(Exploratory)"
+        },
+        {
+          "key": "c",
+          "text": "체크리스트 기반(Checklist-based)"
+        },
+        {
+          "key": "d",
+          "text": "오류 추정(Error guessing)"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "a) 정답이 아닙니다. 책은 일반적인 지침을 제공하지 공식적인 요구사항 문서이거나 명세, 유스케이스 목록, 사용자 스토리, 비즈니스 프로세스를 제공하진 않습니다. b) 정답이 아닙니다. 이 목록을 일련의 테스트 차터라고 볼 수도 있지만, 실제로는 확인해야 할 테스트 컨디션 목록에 더 가깝습니다. c) 정답입니다. 사용자 인터페이스 모범 사례 목록은 체계적으로 확인해야 하는 테스트 컨디션 목록입니다. d) 정답이 아닙니다. 테스트는 일어날 수 있는 장애에 초점을 맞추지 않고 되려 유용성 측면 에서 사용자에게 중요한 것에 대한 지식에 초점을 두고 있습니다.",
+      "learningObjective": "FL-4.4.3",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 28
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '체크리스트 기반 테스팅'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 C입니다. 사용자 인터페이스 모범 사례 목록은 체계적으로 확인해야 하는 테스트 컨디션 목록입니다.",
+        "wrongReasons": {
+          "a": "책은 일반적인 지침을 제공하지 공식적인 요구사항 문서이거나 명세, 유스케이스 목록, 사용자 스토리, 비즈니스 프로세스를 제공하진 않습니다.",
+          "b": "이 목록을 일련의 테스트 차터라고 볼 수도 있지만, 실제로는 확인해야 할 테스트 컨디션 목록에 더 가깝습니다.",
+          "d": "테스트는 일어날 수 있는 장애에 초점을 맞추지 않고 되려 유용성 측면 에서 사용자에게 중요한 것에 대한 지식에 초점을 두고 있습니다."
+        },
+        "beginnerTip": "헷갈리면 '체크리스트'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '체크리스트 기반 테스팅'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "체크리스트",
+          "테스트 컨디션",
+          "사용성"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a18",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A18",
+      "type": "additional",
+      "question": "다음 중 사용자 스토리 작성을 위한 협업 접근법을 가장 잘 설명한 것은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "사용자 스토리는 테스터와 개발자가 작성한 후 비즈니스 담당자가 승인한다"
+        },
+        {
+          "key": "b",
+          "text": "사용자 스토리는 비즈니스 담당자, 개발자, 테스터가 함께 작성한다"
+        },
+        {
+          "key": "c",
+          "text": "사용자 스토리는 비즈니스 담당자가 작성하고 개발자와 테스터가 검증한다"
+        },
+        {
+          "key": "d",
+          "text": "사용자 스토리는 독립적이고 협의 가능하며, 가치 있고, 추정 가능하며, 작고, 테스트 가능한 방식으로 작성한다"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "a) 정답이 아닙니다. 협업 기반 사용자 스토리 작성은 공통된 비전을 얻기 위해 모든 이해 관계자가 협력하여 사용자 스토리를 생성하는 것을 의미합니다. b) 정답입니다. 협업 기반 사용자 스토리 작성은 공통된 비전을 얻기 위해 모든 이해관계자가 협력하여 사용자 스토리를 생성하는 것을 의미합니다. c) 정답이 아닙니다. 협업 기반 사용자 스토리 작성은 공통된 비전을 얻기 위해 모든 이해 관계자가 협력하여 사용자 스토리를 생성하는 것을 의미합니다. d) 정답이 아닙니다. 이것은 협력 기반 접근법에 대한 설명이 아닌 각 사용자 스토리가 가져 야 하는 속성을 나열한 것입니다.",
+      "learningObjective": "FL-4.5.1",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 28
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '협업적 사용자 스토리 작성'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 B입니다. 협업 기반 사용자 스토리 작성은 공통된 비전을 얻기 위해 모든 이해관계자가 협력하여 사용자 스토리를 생성하는 것을 의미합니다.",
+        "wrongReasons": {
+          "a": "협업 기반 사용자 스토리 작성은 공통된 비전을 얻기 위해 모든 이해 관계자가 협력하여 사용자 스토리를 생성하는 것을 의미합니다.",
+          "c": "협업 기반 사용자 스토리 작성은 공통된 비전을 얻기 위해 모든 이해 관계자가 협력하여 사용자 스토리를 생성하는 것을 의미합니다.",
+          "d": "이것은 협력 기반 접근법에 대한 설명이 아닌 각 사용자 스토리가 가져 야 하는 속성을 나열한 것입니다."
+        },
+        "beginnerTip": "헷갈리면 '사용자 스토리'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '협업적 사용자 스토리 작성'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "사용자 스토리",
+          "협업",
+          "공통 이해"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a19",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A19",
+      "type": "additional",
+      "question": "다음은 테스트 계획서의 어느 부분에 속하는가?\n테스팅은 단위 테스팅과 단위 통합 테스팅을 사용해 수행한다. 규정에 따라 치명적인 (critical) 등급에 속한 모든 컴포넌트는 100% 분기 커버리지가 달성되었음을 입증해 야 한다.",
+      "choices": [
+        {
+          "key": "a",
+          "text": "의사소통"
+        },
+        {
+          "key": "b",
+          "text": "리스크 목록"
+        },
+        {
+          "key": "c",
+          "text": "테스팅 정황"
+        },
+        {
+          "key": "d",
+          "text": "테스트 접근법"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "a) 정답이 아닙니다. 문단은 테스트 접근법에 포함되는 테스트 레벨과 완료 조건에 대한 정보를 담고 있습니다. b) 정답이 아닙니다. 문단은 테스트 접근법에 포함되는 테스트 레벨과 완료 조건에 대한 정보를 담고 있습니다. c) 정답이 아닙니다. 문단은 테스트 접근법에 포함되는 테스트 레벨과 완료 조건에 대한 정보를 담고 있습니다. d) 정답입니다. 문단은 테스트 접근법에 포함되는 테스트 레벨과 완료 조건에 대한 정보를 담고 있습니다.",
+      "learningObjective": "FL-5.1.1",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 28
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '테스트 계획'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 D입니다. 문단은 테스트 접근법에 포함되는 테스트 레벨과 완료 조건에 대한 정보를 담고 있습니다.",
+        "wrongReasons": {
+          "a": "문단은 테스트 접근법에 포함되는 테스트 레벨과 완료 조건에 대한 정보를 담고 있습니다.",
+          "b": "문단은 테스트 접근법에 포함되는 테스트 레벨과 완료 조건에 대한 정보를 담고 있습니다.",
+          "c": "문단은 테스트 접근법에 포함되는 테스트 레벨과 완료 조건에 대한 정보를 담고 있습니다."
+        },
+        "beginnerTip": "헷갈리면 '테스트 계획'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '테스트 계획'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "테스트 계획",
+          "테스트 접근법",
+          "완료 조건"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a20",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A20",
+      "type": "additional",
+      "question": "팀에서 플래닝 포커로 새로운 기능에 대한 테스트 노력을 추정하고 있다. 팀 내에는 규 칙들이 있는데,가령, 전체적인 합의에 도달할 시간이 없고 결과의 편차가 작을 경우, ‘가장 많은 표를 얻은 숫자를 채택한다’와 같은 규칙을 적용할 수 있다. 두 번째 라운드 후에도 합의에 도달하지 못해 세 번째 라운드를 수행했다. 테스트 추정 결 과는 아래 표와 같다.\n팀원들의 추정\n1 라운드 21 2 5 34 13 8 2\n2 라운드 13 8 8 34 13 8 5\n3 라운드 13 8 13 13 13 13 8 다음 중 다음 단계로 가장 적합한 예제는?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "제품 소유자가 개입해 최종 결정을 내려야 한다"
+        },
+        {
+          "key": "b",
+          "text": "13이 가장 많은 표를 얻었으므로 최종 테스트 추정치로 13을 수용한다"
+        },
+        {
+          "key": "c",
+          "text": "합의에 도달했기 때문에 추가 조치는 없어도 된다"
+        },
+        {
+          "key": "d",
+          "text": "합의가 이루어지지 않았기 때문에 현재 릴리스에서 새로운 기능을 제외한다"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "a) 정답이 아닙니다. 하나의 팀원이 결정하는 것이 아니라 팀 활동이 되어야 합니다. b) 정답입니다. 만약 테스트 추정치가 같지 않지만, 결과의 차이가 작다면 “가장 많은 표를 얻은 숫자를 수용한다”와 같은 규칙을 적용할 수 있습니다. c) 정답이 아닙니다. 몇몇은 13을 얘기하고 몇몇은 8을 이야기했기 때문에 합의에 도달하지 못했습니다. d) 정답이 아닙니다. 팀이 테스트 추정치를 합의하지 못했다고 해서 기능을 제외해서는 안 됩니다.",
+      "learningObjective": "FL-5.1.4",
+      "kLevel": "K3",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 29
+      },
+      "visualAsset": "assets/v1_7a_a20_page29.png",
+      "visualNote": "이 문항은 원본 PDF의 표/그림을 함께 확인하는 것을 권장합니다.",
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '테스트 노력 추정'을 실제 상황에 적용해 계산하거나 판단하는 문제입니다. 먼저 조건을 정리한 뒤, 보기의 주장과 원문 규칙이 맞는지 비교해야 합니다.",
+        "correctReason": "정답은 B입니다. 만약 테스트 추정치가 같지 않지만, 결과의 차이가 작다면 “가장 많은 표를 얻은 숫자를 수용한다”와 같은 규칙을 적용할 수 있습니다.",
+        "wrongReasons": {
+          "a": "하나의 팀원이 결정하는 것이 아니라 팀 활동이 되어야 합니다.",
+          "c": "몇몇은 13을 얘기하고 몇몇은 8을 이야기했기 때문에 합의에 도달하지 못했습니다.",
+          "d": "팀이 테스트 추정치를 합의하지 못했다고 해서 기능을 제외해서는 안 됩니다."
+        },
+        "beginnerTip": "계산형·표 해석형 문제는 보기부터 고르지 말고, 원문 조건을 작은 단위로 나누어 표나 순서로 먼저 정리하면 실수를 줄일 수 있습니다.",
+        "keyPoint": "핵심은 '테스트 노력 추정'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "3점 추정",
+          "플래닝 포커",
+          "추정"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a21",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A21",
+      "type": "additional",
+      "question": "다음 중 테스트 피라미드에 대한 설명으로 올바른 것은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "하위 테스트 레벨에서 훨씬 더 많은 테스트를 수행해야 한다는 것을 강조한다"
+        },
+        {
+          "key": "b",
+          "text": "각각의 하위 테스트 레벨에서 커다란 기능을 확인해야 한다고 제안한다"
+        },
+        {
+          "key": "c",
+          "text": "전체 소프트웨어 개발 수명주기에서 테스트 유형의 배치를 설명한다"
+        },
+        {
+          "key": "d",
+          "text": "자동화 테스트 구성에 영향을 미치지 않는다"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "a) 정답입니다. 테스트 피라미드는 하위 테스트 레벨에서 더 많은 수의 테스트를 수행해야 한다는 것을 강조한다. b) 정답이 아닙니다. 하위 테스트 레벨에서 커다란 기능을 테스트해야 한다는 것은 사실이 아닙니다. 테스트는 더 작은 단위로 나뉘며 특정 로직에 초점을 맞추므로, 오히려 그 반 대입니다. c) 정답이 아닙니다. 테스트 피라미드는 테스트 레벨에 따라 테스트의 분량이 어떻게 분포 되는지를 보여줍니다. d) 정답이 아닙니다. 테스트 피라미드 모델은 테스트 자동화에서 팀을 지원합니다.",
+      "learningObjective": "FL-5.1.6",
+      "kLevel": "K1",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 29
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '테스트 피라미드'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 A입니다. 테스트 피라미드는 하위 테스트 레벨에서 더 많은 수의 테스트를 수행해야 한다는 것을 강조한다.",
+        "wrongReasons": {
+          "b": "하위 테스트 레벨에서 커다란 기능을 테스트해야 한다는 것은 사실이 아닙니다. 테스트는 더 작은 단위로 나뉘며 특정 로직에 초점을 맞추므로, 오히려 그 반 대입니다.",
+          "c": "테스트 피라미드는 테스트 레벨에 따라 테스트의 분량이 어떻게 분포 되는지를 보여줍니다.",
+          "d": "테스트 피라미드 모델은 테스트 자동화에서 팀을 지원합니다."
+        },
+        "beginnerTip": "헷갈리면 '테스트 피라미드'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '테스트 피라미드'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "테스트 피라미드",
+          "하위 테스트",
+          "자동화"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a22",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A22",
+      "type": "additional",
+      "question": "리스크 분석 중에 팀은 다음과 같은 리스크를 고려했다: “시스템이 고객에게 너무 높은 할 인을 허용할 수 있다.” 팀은 리스크 영향도가 매우 높을 것으로 추정했다. 이 경우, 리스크 발생 가능성에 대해서는 어떻게 말할 수 있는가?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "리스크 가능성도 매우 높다. 리스크 영향도가 높다는 건 리스크 발생 가능성도 항상 높다는 걸 의미한다"
+        },
+        {
+          "key": "b",
+          "text": "매우 낮다. 리스크 영향도가 높다는 건 리스크 발생 가능성은 항상 낮다는 걸 뜻한다"
+        },
+        {
+          "key": "c",
+          "text": "리스크 영향도와 리스크 발생 가능성은 독립적이기 때문에 리스크 발생 가능성에 대해 말할 수 없다"
+        },
+        {
+          "key": "d",
+          "text": "이렇게 리스크 영향도가 높은 경우 리스크 발생 가능성은 중요하지 않기 때문에 정의 할 필요가 없다"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "a) 정답이 아닙니다. 리스크 영향도와 리스크 발생 가능성은 독립적입니다. b) 정답이 아닙니다. 리스크 영향도와 리스크 발생 가능성은 독립적입니다. c) 정답입니다. 리스크 영향도와 리스크 발생 가능성은 독립적입니다. d) 정답이 아닙니다. 리스크 수준을 계산하기 위해 두 요소 모두 필요합니다.",
+      "learningObjective": "FL-5.2.1",
+      "kLevel": "K1",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 30
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '리스크의 발생 가능성과 영향도'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 C입니다. 리스크 영향도와 리스크 발생 가능성은 독립적입니다.",
+        "wrongReasons": {
+          "a": "리스크 영향도와 리스크 발생 가능성은 독립적입니다.",
+          "b": "리스크 영향도와 리스크 발생 가능성은 독립적입니다.",
+          "d": "리스크 수준을 계산하기 위해 두 요소 모두 필요합니다."
+        },
+        "beginnerTip": "헷갈리면 '리스크'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "리스크 문제는 발생 가능성, 영향도, 리스크 수준, 대응 방법을 분리해서 생각해야 합니다.",
+        "terms": [
+          "리스크",
+          "가능성",
+          "영향도"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a23",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A23",
+      "type": "additional",
+      "question": "다음은 개발할 새로운 소프트웨어 제품과 관련해 식별한 리스크이다:\ni. 관리자가 숙련된 테스터 두 명을 다른 프로젝트로 이동시킨다 ii. 시스템이 기능 안전 표준을 준수하지 않는다 iii. 시스템 응답 시간이 사용자 요구사항보다 느리다 iv. 이해관계자의 기대치가 부정확하다 v. 장애인이 시스템을 사용할 때 문제가 발생한다 다음 중 프로젝트 리스크는?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "i, iv"
+        },
+        {
+          "key": "b",
+          "text": "iv, v"
+        },
+        {
+          "key": "c",
+          "text": "i, iii"
+        },
+        {
+          "key": "d",
+          "text": "ii, v"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "다음을 근거로:\ni. 이것은 프로젝트 리스크입니다. ii. 이것은 제품 리스크입니다. iii. 이것은 제품 리스크입니다. iv. 이것은 프로젝트 리스크입니다. v. 이것은 제품 리스크입니다. 따라서:\na) 정답입니다. b) 정답이 아닙니다. c) 정답이 아닙니다. d) 정답이 아닙니다.",
+      "learningObjective": "FL-5.2.2",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 30
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '제품 리스크와 프로젝트 리스크'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 A입니다. ",
+        "wrongReasons": {
+          "b": " 이 보기는 '제품 리스크와 프로젝트 리스크'의 핵심 조건과 맞지 않습니다.",
+          "c": " 이 보기는 '제품 리스크와 프로젝트 리스크'의 핵심 조건과 맞지 않습니다.",
+          "d": " 이 보기는 '제품 리스크와 프로젝트 리스크'의 핵심 조건과 맞지 않습니다."
+        },
+        "beginnerTip": "헷갈리면 '제품 리스크'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "리스크 문제는 발생 가능성, 영향도, 리스크 수준, 대응 방법을 분리해서 생각해야 합니다.",
+        "terms": [
+          "제품 리스크",
+          "프로젝트 리스크",
+          "품질 리스크"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a24",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A24",
+      "type": "additional",
+      "question": "다음 중 제품 리스크 분석이 테스팅의 강도와 범위에 어떻게 영향을 미치는지 보여주 는 예제는?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "테스트 관리자는 식별된 모든 리스크의 수준을 매일 모니터링하고 보고해서 이해관 계자가 사실을 바탕으로 출시일을 결정할 수 있도록 한다"
+        },
+        {
+          "key": "b",
+          "text": "식별된 리스크 중 하나인 “오픈소스 데이터베이스 지원 부족”으로, 팀은 시스템에 오 픈소스 데이터베이스를 통합하기로 결정했다"
+        },
+        {
+          "key": "c",
+          "text": "정량적 리스크 분석 과정에서 팀은 식별된 리스크를 모두 합친 수준을 추정해서, 테스 팅을 시작하기 전 총 잔여 리스크로 보고했다"
+        },
+        {
+          "key": "d",
+          "text": "리스크 평가 결과 성능 리스크 수준이 매우 높은 것으로 나타나서, 소프트웨어 개발 수명주기(SDLC) 초기에 구체적인 수행 효율성 테스팅을 수행하기로 결정했다"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "a) 정답이 아닙니다. 이것은 리스크 분석이 아닌 리스크 모니터링 활동의 예시입니다. b) 정답이 아닙니다. 이것은 테스팅과 관련 없는 아키텍처 결정의 예시입니다. c) 정답이 아닙니다. 이것은 테스팅의 강도나 범위와 관련 없는 정량적 리스크 분석을 실행하는 예시입니다. d) 정답입니다. 이것은 리스크 분석이 테스팅의 강도에(즉, 상세화 수준에) 어떻게 영향을 미치는지 보여줍니다.",
+      "learningObjective": "FL-5.2.3",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 31
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '리스크 분석과 테스트 범위'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 D입니다. 이것은 리스크 분석이 테스팅의 강도에(즉, 상세화 수준에) 어떻게 영향을 미치는지 보여줍니다.",
+        "wrongReasons": {
+          "a": "이것은 리스크 분석이 아닌 리스크 모니터링 활동의 예시입니다.",
+          "b": "이것은 테스팅과 관련 없는 아키텍처 결정의 예시입니다.",
+          "c": "이것은 테스팅의 강도나 범위와 관련 없는 정량적 리스크 분석을 실행하는 예시입니다."
+        },
+        "beginnerTip": "헷갈리면 '제품 리스크 분석'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "리스크 문제는 발생 가능성, 영향도, 리스크 수준, 대응 방법을 분리해서 생각해야 합니다.",
+        "terms": [
+          "제품 리스크 분석",
+          "테스트 강도",
+          "테스트 범위"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a25",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A25",
+      "type": "additional",
+      "question": "다음 중 테스트 대상의 품질 수준을 보고하는 데 많이 사용하는 지표 두 가지는?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "시스템 테스팅 중 식별한 결함 수"
+        },
+        {
+          "key": "b",
+          "text": "테스트 설계에 들어간 전체 노력을 설계된 테스트 케이스 수로 나눈 값"
+        },
+        {
+          "key": "c",
+          "text": "실행된 테스트 절차의 수"
+        },
+        {
+          "key": "d",
+          "text": "식별한 결함 수를 작업 산출물의 크기로 나눈 값"
+        },
+        {
+          "key": "e",
+          "text": "결함을 수정하는 데 필요한 시간"
+        }
+      ],
+      "answer": [
+        "a",
+        "d"
+      ],
+      "explanation": "a) 정답입니다. 발견한 결함의 수는 테스트 대상의 품질과 관련이 있습니다. b) 정답이 아닙니다. 이것은 테스트 대상의 품질이 아닌 테스트 효율성에 대한 지표입니다. c) 정답이 아닙니다. 실행된 테스트 케이스의 수는 품질에 대해 어떤 것도 알려주지 않습니다; 테스트 결과는 알려줄 수도 있습니다. d) 정답입니다. 결함 밀도는 테스트 대상의 품질과 관련이 있습니다. e) 정답이 아닙니다. 결함 수정 시간은 프로세스에 대한 지표입니다. 제품의 품질에 대해 아무것도 알려주지 않습니다.",
+      "learningObjective": "FL-5.3.1",
+      "kLevel": "K1",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 31
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "복수정답 문항입니다. 이 문제는 '테스트 메트릭'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 A, D입니다. 발견한 결함의 수는 테스트 대상의 품질과 관련이 있습니다. 결함 밀도는 테스트 대상의 품질과 관련이 있습니다.",
+        "wrongReasons": {
+          "b": "이것은 테스트 대상의 품질이 아닌 테스트 효율성에 대한 지표입니다.",
+          "c": "실행된 테스트 케이스의 수는 품질에 대해 어떤 것도 알려주지 않습니다; 테스트 결과는 알려줄 수도 있습니다.",
+          "e": "결함 수정 시간은 프로세스에 대한 지표입니다. 제품의 품질에 대해 아무것도 알려주지 않습니다."
+        },
+        "beginnerTip": "문제에서 두 가지 또는 복수 선택을 요구하면, 맞는 보기 하나를 찾고 끝내지 말고 나머지 보기까지 같은 기준으로 검토해야 합니다.",
+        "keyPoint": "핵심은 '테스트 메트릭'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "품질 지표",
+          "결함 수",
+          "결함 밀도"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    },
+    {
+      "id": "v1.7a-a26",
+      "version": "V1.7A",
+      "set": "A",
+      "number": "A26",
+      "type": "additional",
+      "question": "테스트 진행 상황 보고서에 들어가는 다음 정보 중 비즈니스 담당자에게 가장 유용하지 않은 것은?",
+      "choices": [
+        {
+          "key": "a",
+          "text": "테스팅 진행을 방해하는 장애물"
+        },
+        {
+          "key": "b",
+          "text": "달성한 분기 커버리지"
+        },
+        {
+          "key": "c",
+          "text": "테스트 진행 상황"
+        },
+        {
+          "key": "d",
+          "text": "테스트 진행 중 나타나 새로운 리스크"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "a) 정답이 아닙니다. 테스트 진행의 장애 요인은 상위 수준의 것이거나 비즈니스와 관계된 것일 수 있습니다. 따라서 이것은 비즈니스 이해관계자에게 중요한 정보입니다. b) 정답입니다. 분기 테스팅은 개발자와 기술 테스트 분석가 사용하는 기술 지표입니다. 비즈니스 담당자는 이 정보에 아무런 관심이 없습니다. c) 정답이 아닙니다. 테스트 진행 상황은 프로젝트와 관련된 것이기 때문에 비즈니스 담당자에게 유용할 수 있습니다. d) 정답이 아닙니다. 리스크는 제품 품질에 영향을 끼치므로 비즈니스 담당자에게 유용할 수 있습니다.",
+      "learningObjective": "FL-5.3.2",
+      "kLevel": "K2",
+      "points": 1,
+      "source": {
+        "questionPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_한글_v1.0.pdf",
+        "answerPdf": "ISTQB_FL_v4.0_샘플문제_A_v1.7_정답과_해설_한글_v1.0.pdf",
+        "questionPage": 31
+      },
+      "learningExplanation": {
+        "status": "reviewed_beta",
+        "audience": "beginner",
+        "summary": "이 문제는 '테스트 보고'의 기본 개념을 묻습니다. 용어가 비슷한 보기끼리 섞여 있으므로, 핵심 정의와 역할 차이를 기준으로 판단해야 합니다.",
+        "correctReason": "정답은 B입니다. 분기 테스팅은 개발자와 기술 테스트 분석가 사용하는 기술 지표입니다. 비즈니스 담당자는 이 정보에 아무런 관심이 없습니다.",
+        "wrongReasons": {
+          "a": "테스트 진행의 장애 요인은 상위 수준의 것이거나 비즈니스와 관계된 것일 수 있습니다. 따라서 이것은 비즈니스 이해관계자에게 중요한 정보입니다.",
+          "c": "테스트 진행 상황은 프로젝트와 관련된 것이기 때문에 비즈니스 담당자에게 유용할 수 있습니다.",
+          "d": "리스크는 제품 품질에 영향을 끼치므로 비즈니스 담당자에게 유용할 수 있습니다."
+        },
+        "beginnerTip": "헷갈리면 '테스트 진행 상황 보고서'의 정의를 먼저 떠올린 뒤, 보기 문장이 그 정의를 벗어나는지 확인하세요.",
+        "keyPoint": "핵심은 '테스트 보고'입니다. 보기의 표현이 비슷해 보여도 ISTQB 용어의 정의와 역할을 기준으로 판단하세요.",
+        "terms": [
+          "테스트 진행 상황 보고서",
+          "비즈니스 이해관계자",
+          "분기 커버리지"
+        ],
+        "review": {
+          "status": "reviewed_beta",
+          "factCheckBasis": "원본 정답/해설 PDF의 정답, 보기별 해설, LO, K-Level과 대조",
+          "checks": {
+            "answerUnchanged": true,
+            "choiceKeysCovered": true,
+            "originalExplanationPreserved": true,
+            "terminologyChecked": true
+          },
+          "notes": "초보 학습자가 이해하기 쉽도록 원문 해설을 재서술했으며, 정답·문항 구조·원본 해설 필드는 변경하지 않았습니다."
+        }
+      }
+    }
+  ]
+}

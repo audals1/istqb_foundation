@@ -1,0 +1,79 @@
+# V1.7A 초보자 튜터형 해설 Beta 2 Full 검수 리포트
+
+- 대상: V1.7A 전체 66문항
+- 신규 확장 범위: 11번~40번, A1~A26 총 56문항
+- 기존 샘플 유지: 1번~10번 총 10문항
+- 학습 해설 모드: tutor_explanation
+- 원본 정답 변경: 없음
+- 원본 explanation 필드 변경: 없음
+- 오답 보기 키 매칭: 66 / 66
+- 검수 상태: reviewed-beta2
+
+## 문항별 상태
+
+- 1: v1.7a-1 / 정답 C / tutor_beta2_sample / 튜터형 해설 적용
+- 2: v1.7a-2 / 정답 A / tutor_beta2_sample / 튜터형 해설 적용
+- 3: v1.7a-3 / 정답 A / tutor_beta2_sample / 튜터형 해설 적용
+- 4: v1.7a-4 / 정답 B / tutor_beta2_sample / 튜터형 해설 적용
+- 5: v1.7a-5 / 정답 B / tutor_beta2_sample / 튜터형 해설 적용
+- 6: v1.7a-6 / 정답 A, E / tutor_beta2_sample / 튜터형 해설 적용
+- 7: v1.7a-7 / 정답 B / tutor_beta2_sample / 튜터형 해설 적용
+- 8: v1.7a-8 / 정답 D / tutor_beta2_sample / 튜터형 해설 적용
+- 9: v1.7a-9 / 정답 D / tutor_beta2_sample / 튜터형 해설 적용
+- 10: v1.7a-10 / 정답 C / tutor_beta2_sample / 튜터형 해설 적용
+- 11: v1.7a-11 / 정답 D / reviewed-beta2 / 튜터형 해설 적용
+- 12: v1.7a-12 / 정답 C / reviewed-beta2 / 튜터형 해설 적용
+- 13: v1.7a-13 / 정답 A / reviewed-beta2 / 튜터형 해설 적용
+- 14: v1.7a-14 / 정답 B / reviewed-beta2 / 튜터형 해설 적용
+- 15: v1.7a-15 / 정답 A / reviewed-beta2 / 튜터형 해설 적용
+- 16: v1.7a-16 / 정답 D / reviewed-beta2 / 튜터형 해설 적용
+- 17: v1.7a-17 / 정답 B / reviewed-beta2 / 튜터형 해설 적용
+- 18: v1.7a-18 / 정답 D / reviewed-beta2 / 튜터형 해설 적용
+- 19: v1.7a-19 / 정답 C / reviewed-beta2 / 튜터형 해설 적용
+- 20: v1.7a-20 / 정답 B / reviewed-beta2 / 튜터형 해설 적용
+- 21: v1.7a-21 / 정답 A / reviewed-beta2 / 튜터형 해설 적용
+- 22: v1.7a-22 / 정답 D / reviewed-beta2 / 튜터형 해설 적용
+- 23: v1.7a-23 / 정답 D / reviewed-beta2 / 튜터형 해설 적용
+- 24: v1.7a-24 / 정답 A / reviewed-beta2 / 튜터형 해설 적용
+- 25: v1.7a-25 / 정답 D / reviewed-beta2 / 튜터형 해설 적용
+- 26: v1.7a-26 / 정답 A / reviewed-beta2 / 튜터형 해설 적용
+- 27: v1.7a-27 / 정답 C / reviewed-beta2 / 튜터형 해설 적용
+- 28: v1.7a-28 / 정답 B / reviewed-beta2 / 튜터형 해설 적용
+- 29: v1.7a-29 / 정답 A / reviewed-beta2 / 튜터형 해설 적용
+- 30: v1.7a-30 / 정답 C / reviewed-beta2 / 튜터형 해설 적용
+- 31: v1.7a-31 / 정답 C, E / reviewed-beta2 / 튜터형 해설 적용
+- 32: v1.7a-32 / 정답 D / reviewed-beta2 / 튜터형 해설 적용
+- 33: v1.7a-33 / 정답 A / reviewed-beta2 / 튜터형 해설 적용
+- 34: v1.7a-34 / 정답 A / reviewed-beta2 / 튜터형 해설 적용
+- 35: v1.7a-35 / 정답 C / reviewed-beta2 / 튜터형 해설 적용
+- 36: v1.7a-36 / 정답 D / reviewed-beta2 / 튜터형 해설 적용
+- 37: v1.7a-37 / 정답 C / reviewed-beta2 / 튜터형 해설 적용
+- 38: v1.7a-38 / 정답 C / reviewed-beta2 / 튜터형 해설 적용
+- 39: v1.7a-39 / 정답 C / reviewed-beta2 / 튜터형 해설 적용
+- 40: v1.7a-40 / 정답 B / reviewed-beta2 / 튜터형 해설 적용
+- A1: v1.7a-a1 / 정답 A / reviewed-beta2 / 튜터형 해설 적용
+- A2: v1.7a-a2 / 정답 D / reviewed-beta2 / 튜터형 해설 적용
+- A3: v1.7a-a3 / 정답 D / reviewed-beta2 / 튜터형 해설 적용
+- A4: v1.7a-a4 / 정답 D / reviewed-beta2 / 튜터형 해설 적용
+- A5: v1.7a-a5 / 정답 C / reviewed-beta2 / 튜터형 해설 적용
+- A6: v1.7a-a6 / 정답 D / reviewed-beta2 / 튜터형 해설 적용
+- A7: v1.7a-a7 / 정답 B, C / reviewed-beta2 / 튜터형 해설 적용
+- A8: v1.7a-a8 / 정답 C / reviewed-beta2 / 튜터형 해설 적용
+- A9: v1.7a-a9 / 정답 B / reviewed-beta2 / 튜터형 해설 적용
+- A10: v1.7a-a10 / 정답 A / reviewed-beta2 / 튜터형 해설 적용
+- A11: v1.7a-a11 / 정답 C / reviewed-beta2 / 튜터형 해설 적용
+- A12: v1.7a-a12 / 정답 D / reviewed-beta2 / 튜터형 해설 적용
+- A13: v1.7a-a13 / 정답 B / reviewed-beta2 / 튜터형 해설 적용
+- A14: v1.7a-a14 / 정답 B / reviewed-beta2 / 튜터형 해설 적용
+- A15: v1.7a-a15 / 정답 C / reviewed-beta2 / 튜터형 해설 적용
+- A16: v1.7a-a16 / 정답 D / reviewed-beta2 / 튜터형 해설 적용
+- A17: v1.7a-a17 / 정답 C / reviewed-beta2 / 튜터형 해설 적용
+- A18: v1.7a-a18 / 정답 B / reviewed-beta2 / 튜터형 해설 적용
+- A19: v1.7a-a19 / 정답 D / reviewed-beta2 / 튜터형 해설 적용
+- A20: v1.7a-a20 / 정답 B / reviewed-beta2 / 튜터형 해설 적용
+- A21: v1.7a-a21 / 정답 A / reviewed-beta2 / 튜터형 해설 적용
+- A22: v1.7a-a22 / 정답 C / reviewed-beta2 / 튜터형 해설 적용
+- A23: v1.7a-a23 / 정답 A / reviewed-beta2 / 튜터형 해설 적용
+- A24: v1.7a-a24 / 정답 D / reviewed-beta2 / 튜터형 해설 적용
+- A25: v1.7a-a25 / 정답 A, D / reviewed-beta2 / 튜터형 해설 적용
+- A26: v1.7a-a26 / 정답 B / reviewed-beta2 / 튜터형 해설 적용

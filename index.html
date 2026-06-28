@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ISTQB FOUNDATION 문제은행 V1.0</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main class="app" id="app">
+    <section class="screen active" id="titleScreen">
+      <div class="hero">
+        <p class="eyebrow">CTFL 4.0 Sample Exam Trainer</p>
+        <h1>ISTQB FOUNDATION<br/>문제은행</h1>
+        <p class="desc">ISTQB Foundation 샘플문제 4종(V1.7A·V1.7B·V1.6·V1.5) 전체에 초보자 튜터형 해설을 적용한 학습용 문제은행입니다.</p>
+        <button class="primary" id="startBtn">시작하기</button>
+      </div>
+    </section>
+
+    <section class="screen" id="selectScreen">
+      <header class="topbar"><button class="ghost" id="backToTitle">←</button><h2>모드 / 버전 선택</h2></header>
+      <div class="card">
+        <label>학습 방식</label>
+        <div class="modeGrid" role="radiogroup" aria-label="학습 방식 선택">
+          <label class="modeCard active" for="modeStudy" data-mode-card="study">
+            <input type="radio" name="quizMode" id="modeStudy" value="study" checked />
+            <span class="modeTitle">학습 모드</span>
+            <span class="modeDesc">문제를 풀자마자 정답과 초보자 튜터형 해설을 확인합니다.</span>
+            <span class="modeBadge ready">현재 사용 가능</span>
+          </label>
+          <label class="modeCard" for="modeExam" data-mode-card="exam">
+            <input type="radio" name="quizMode" id="modeExam" value="exam" />
+            <span class="modeTitle">모의고사 모드</span>
+            <span class="modeDesc">40문항, 60분, 제출 후 채점 방식으로 실제 시험처럼 풉니다.</span>
+            <span class="modeBadge ready">사용 가능</span>
+          </label>
+        </div>
+        <p class="tiny inlineHint" id="modeHint">학습 모드는 현재 V1.0 기본 모드입니다. 정답 확인 후 튜터형 해설과 원문 해설을 함께 볼 수 있습니다.</p>
+        <div class="mockPreview hidden" id="mockPreview">
+          <strong>모의고사 모드 규칙</strong>
+          <ul>
+            <li>본시험 40문항 기준</li>
+            <li>제한시간 60분</li>
+            <li>풀이 중 정답/해설 비공개</li>
+            <li>제출 후 점수·합격 여부·해설 확인</li>
+          </ul>
+        </div>
+        <label for="versionSelect">문제 세트</label>
+        <select id="versionSelect">
+          <option value="v1.7a">V1.7A</option>
+          <option value="v1.7b">V1.7B</option>
+          <option value="v1.6">V1.6</option>
+          <option value="v1.5">V1.5</option>
+          <option value="all">전체 - 현재 등록된 전체 문제</option>
+          <option value="random">랜덤 - 전체 문제 셔플</option>
+        </select>
+        <label for="questionScope">범위</label>
+        <select id="questionScope"></select>
+        <p class="tiny inlineHint" id="scopeHint"></p>
+        <label for="limitSelect">문항 수</label>
+        <select id="limitSelect">
+          <option value="all">전체</option>
+          <option value="10">랜덤 10문항</option>
+          <option value="20">랜덤 20문항</option>
+          <option value="40">랜덤 40문항</option>
+        </select>
+        <button class="primary wide" id="beginQuizBtn">문제 풀기</button>
+        <p class="tiny" id="datasetHint">현재 V1.0 1차 완성본 기준: 총 186문항을 수록했으며, 4종 전체 문항에 초보자 튜터형 해설과 주요 문항 가독성 보정을 적용했습니다.</p>
+      </div>
+    </section>
+
+    <section class="screen" id="quizScreen">
+      <header class="topbar quizbar">
+        <button class="ghost" id="exitQuizBtn">←</button>
+        <div class="progressWrap"><div class="progressText" id="progressText"></div><div class="progress"><span id="progressBar"></span></div></div>
+      </header>
+      <article class="questionCard">
+        <div class="chips" id="metaChips"></div>
+        <h2 id="questionNumber"></h2>
+        <div class="question" id="questionText"></div>
+        <div id="visualBox" class="visualBox"></div>
+        <div class="choices" id="choicesBox"></div>
+        <section class="examNavigator hidden" id="examNavigator"></section>
+        <section class="feedback hidden" id="feedbackBox"></section>
+        <div class="navRow">
+          <button class="secondary hidden" id="prevBtn">이전</button>
+          <button class="secondary" id="bookmarkBtn">북마크</button>
+          <button class="primary" id="nextBtn" disabled>다음</button>
+        </div>
+      </article>
+    </section>
+
+    <section class="screen" id="resultScreen">
+      <header class="topbar"><button class="ghost" id="backToSelectFromResult">←</button><h2>결과</h2></header>
+      <div class="card resultCard">
+        <h1 id="scoreText"></h1>
+        <p id="scoreDetail"></p>
+        <div class="resultActions">
+          <button class="primary" id="retryWrongBtn">틀린 문제 다시 풀기</button>
+          <button class="secondary hidden" id="reviewAllBtn">전체 해설 보기</button>
+          <button class="secondary" id="restartBtn">다시 풀기</button>
+          <button class="ghost danger" id="clearWrongBtn">오답노트 비우기</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">Source: ISTQB® / KSTQB Sample Exam A, B, C, D. V1.0 학습용.</footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
